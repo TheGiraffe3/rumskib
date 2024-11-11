@@ -1,4 +1,4 @@
-# New Endless Sky Ships
+# Rumskib
 
 Adds two new ships for [Endless Sky](https://github.com/endless-sky/endless-sky): the Cutlass and the Tanager.
 
