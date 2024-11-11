@@ -1,4 +1,4 @@
-name "New Ships"
+name "Rumskib"
 about "This plugin adds the Pirate Cutlass, a piratified Gunboat, and the Tanager, a better Shuttle."
 authors
 	Loymdayddaud
