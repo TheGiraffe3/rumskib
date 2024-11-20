@@ -7,6 +7,8 @@ mission "Rumskib: Add Eyrie"
 		event "rumskib: eyrie added"
 
 event "rumskib: eyrie added"
+	shipyard "Southbound Advanced"
+		"Eyrie"
 	fleet "Large Free Worlds"
 		add variant
 			"Eyrie"
