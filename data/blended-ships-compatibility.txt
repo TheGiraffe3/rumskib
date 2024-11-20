@@ -77,6 +77,13 @@ mission "Rumskib: Blended Ships uninstalled"
 		fail
 
 event "rumskib: blended ships uninstalled"
+	fleet "Large Southern Merchants"
+		remove variant
+			"Hauler IV"
+			"Rawalpindi"
+		remove variant
+			"Eagle"
+			"Hauler IV"
 	fleet "Small Southern Merchants"
 		remove variant
 			"Catamaran"
@@ -87,6 +94,10 @@ event "rumskib: blended ships uninstalled"
 		remove variant
 			"Hare"
 			"Tanager" 2
+	fleet "Large Core Merchants"
+		remove variant
+			"Caterpillar"
+			"Hauler IV"
 	fleet "Small Core Merchants"
 		remove variant 2
 			"Hare"
@@ -94,6 +105,10 @@ event "rumskib: blended ships uninstalled"
 		remove variant
 			"Hare" 2
 			"Tanager"
+	fleet "Large Free Worlds"
+		remove variant
+			"Eagle"
+			"Eyrie"
 	fleet "Large Northern Pirates"
 		remove variant
 			"Cutlass"
