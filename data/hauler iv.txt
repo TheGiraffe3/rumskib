@@ -1,14 +1,26 @@
-fleet "Large Southern Merchants"
-	add variant 1
+mission "Rumskib: Hauler IV"
+	landing
+	invisible
+	to offer
+		has "event: southern carriers 2"
+	on offer
+		event "rumskib: hauler iv added"
+		fail
+
+event "rumskib: hauler iv added"
+	shipyard "Southbound Advanced"
 		"Hauler IV"
-	add variant 1
-		"Hauler IV"
-		"Sparrow" 2
-	add variant 1
-		"Hauler"
-		"Hauler II"
-		"Hauler III"
-		"Hauler IV"
+	fleet "Large Southern Merchants"
+		add variant 1
+			"Hauler IV"
+		add variant 1
+			"Hauler IV"
+			"Sparrow" 2
+		add variant 1
+			"Hauler"
+			"Hauler II"
+			"Hauler III"
+			"Hauler IV"
 
 ship "Hauler IV"
 	sprite "ship/hauler iv"
