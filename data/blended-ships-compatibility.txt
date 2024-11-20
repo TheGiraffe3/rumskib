@@ -12,6 +12,13 @@ mission "Rumskib: Blended Ships installed"
 		fail
 
 event "rumskib: blended ships installed"
+	fleet "Large Southern Merchants"
+		add variant
+			"Hauler IV"
+			"Rawalpindi"
+		add variant
+			"Eagle"
+			"Hauler IV"
 	fleet "Small Southern Merchants"
 		add variant
 			"Catamaran"
@@ -22,6 +29,10 @@ event "rumskib: blended ships installed"
 		add variant
 			"Hare"
 			"Tanager" 2
+	fleet "Large Core Merchants"
+		add variant
+			"Caterpillar"
+			"Hauler IV"
 	fleet "Small Core Merchants"
 		add variant 2
 			"Hare"
@@ -29,6 +40,10 @@ event "rumskib: blended ships installed"
 		add variant
 			"Hare" 2
 			"Tanager"
+	fleet "Large Free Worlds"
+		add variant
+			"Eagle"
+			"Eyrie"
 	fleet "Large Northern Pirates"
 		add variant
 			"Cutlass"
