@@ -116,7 +116,7 @@ event "rumskib: blended ships uninstalled"
 mission "Rumskib: Blended Ships installed with Hauler IV"
 	landing
 	invisible
-	minor
+	non-blocking
 	repeat
 	to offer
 		has "installed plugin: Blended Ships"
