@@ -46,3 +46,21 @@ mission "Rumskib: DAIS uninstalled"
 		fail
 
 event "rumskib: DAIS uninstalled"
+	fleet "Small Core Merchants"
+		remove variant
+			"Hydrargyrum"
+			"Tanager"
+	fleet "Large Northern Pirates"
+		remove variant
+			"Cutlass"
+			"Lindwurm"
+		remove variant
+			"Cutlass"
+			"Lindwurm (Laser)"
+		remove variant
+			"Cutlass"
+			"Lindwurm (Missile)"
+	fleet "Large CCOR"
+		remove variant
+			"Cutlass"
+			"Moonbeam"
