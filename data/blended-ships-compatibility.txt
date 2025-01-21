@@ -5,7 +5,7 @@ mission "Rumskib: Blended Ships installed"
 	repeat
 	to offer
 		has "installed plugin: Blended Ships"
-  		not "event: rumskib: blended ships installed"
+		not "event: rumskib: blended ships installed"
 	on offer
 		event "rumskib: blended ships installed"
 		clear "event: rumskib: blended ships uninstalled"
@@ -55,7 +55,7 @@ mission "Rumskib: Blended Ships uninstalled"
 	repeat
 	to offer
 		not "installed plugin: Blended Ships"
-  		has "event: rumskib: blended ships installed"
+		has "event: rumskib: blended ships installed"
 	on offer
 		event "rumskib: blended ships uninstalled"
 		clear "event: rumskib: blended ships installed"
