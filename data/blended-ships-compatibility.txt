@@ -129,6 +129,7 @@ ship "Hare"
 		"outfit space" 238
 		"weapon capacity" 80
 		"engine capacity" 120
+		"cargo space" 60
 	gun -20 -29
 	gun 20 -29
 	turret 0 -26.5
@@ -146,6 +147,7 @@ ship "Hare" "Hare (Pirate)"
 		"Supercapacitor"
 
 		"D14-RN Shield Generator"
+		"Outfits Expansion"
 
 		"X3700 Ion Thruster"
 		"X3200 Ion Steering"
