@@ -130,6 +130,7 @@ ship "Hare"
 		"weapon capacity" 80
 		"engine capacity" 120
 		"cargo space" 60
+		"drag" 4.8
 	gun -20 -29
 	gun 20 -29
 	turret 0 -26.5
