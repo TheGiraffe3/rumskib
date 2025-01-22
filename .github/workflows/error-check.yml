@@ -2,6 +2,10 @@ name: Error Check
 
 on: [push, pull_request]
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
 jobs:
   test-parse:
     name: Data Files
