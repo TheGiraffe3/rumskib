@@ -11,9 +11,13 @@
 shipyard "human plugin"
 	"Cleaver"
 	"Cutlass"
+	"Rumskib Destroyer"
+	"Dragonfly"
 	"Marauder Behemoth"
+	"Marauder Boxwing"
 	"Marauder Combat Drone"
 	"Tanager"
 
 outfitter "human plugin"
 	"Old Man's Sword"
+	"Quad Beam Laser"
