@@ -9,4 +9,5 @@
 # PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 gamerules
-	"person spawn period" 3000
+	# Two minutes.
+	"person spawn period" 7200
