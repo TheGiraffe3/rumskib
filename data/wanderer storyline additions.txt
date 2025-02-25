@@ -1,0 +1,31 @@
+# Copyright (c) 2025 by Loymdayddaud
+#
+# Rumskib is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Rumskib is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+mission "Rumskib: Wanderers: Prepare Squall and Hailstone"
+	landing
+	invisible
+	to offer
+		has "event: wanderers: sestor planets unrestricted"
+	on offer
+		event "rumskib: wanderers: squall design" 360 540
+
+event "rumskib: wanderers: squall and design
+
+mission "Rumskib: Wanderers: Squall and Hailstone Unlock"
+	landing
+	source
+		government "Wanderer" "Kor Efret" "Quarg (Kor Efret)"
+	to offer
+		has "event: rumskib: wanderers: squall design"
+	on offer
+		event "rumskib: wanderers: squall and hailstone mass production"
+		conversation
+			`When you land on <origin>, you recieve a message from Sobari Tele'ek. "[Greetings, salutations]," he says. "Production of the Squall and the Hailstone has now [begun, started]. You may buy them next time you [visit, contact] us.`
+				decline
