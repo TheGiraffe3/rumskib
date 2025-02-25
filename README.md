@@ -5,3 +5,5 @@ Large expansion for Endless Sky. Mostly ship-based, but there are new outfits, m
 I release this plugin with unstable ES updates, so about every four months.
 
 Assets for ships without @2x versions can be found [here](https://github.com/TheGiraffe3/homula-rumskib-assets).
+
+Possibly add Wanderer ship stats and missions to unlock?
