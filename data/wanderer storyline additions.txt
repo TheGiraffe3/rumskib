@@ -16,7 +16,7 @@ mission "Rumskib: Wanderers: Prepare Squall and Hailstone"
 	on offer
 		event "rumskib: wanderers: squall design" 360 540
 
-event "rumskib: wanderers: squall and design
+event "rumskib: wanderers: squall design"
 
 mission "Rumskib: Wanderers: Squall and Hailstone Unlock"
 	landing
@@ -25,7 +25,51 @@ mission "Rumskib: Wanderers: Squall and Hailstone Unlock"
 	to offer
 		has "event: rumskib: wanderers: squall design"
 	on offer
-		event "rumskib: wanderers: squall and hailstone mass production"
 		conversation
-			`When you land on <origin>, you recieve a message from Sobari Tele'ek. "[Greetings, salutations]," he says. "Production of the Squall and the Hailstone has now [begun, started]. You may buy them next time you [visit, contact] us.`
+			`When you land on <origin>, you receive a message from Sobari Tele'ek. "[Greetings, Salutations]," he says. "Production of the Squall and the Hailstone has now [begun, started]. You may buy them next time you [visit, contact] us."`
+			``
+			`Another message arrives from somebody decidedly not in the game. "Be warned: this addition is not vanilla content. You may spoil your save by gaining access to these ships before they are implemented in vanilla."`
+			choice
+				`	(Let the ships be added.)`
+				`	(Don't take the risk.)`
+					decline
+			action
+				event "rumskib: wanderers: squall and hailstone mass production"
+			`	"The ships are now sold."`
 				decline
+
+
+event "rumskib: wanderers: squall and hailstone mass production"
+	fleet "Wanderer Defense"
+		add variant 2
+			"Squall"
+			"Hailstone" 4
+			"Flycatcher" 4
+		add variant
+			"Squall"
+			"Hailstone" 4
+			"Flycatcher" 4
+			"Strong Wind"
+		add variant
+			"Squall"
+			"Hailstone" 4
+			"Flycatcher" 4
+			"Tempest"
+		add variant
+			"Squall"
+			"Hailstone" 4
+			"Flycatcher" 4
+			"Derecho"
+		add variant
+			"Squall"
+			"Hailstone" 4
+			"Flycatcher" 4
+			"Hurricane"
+		add variant
+			"Squall"
+			"Hailstone" 4
+			"Flycatcher" 4
+			"Autumn Breeze" 4
+	shipyard "Wanderer Advanced"
+		add "Hailstone"
+		add "Squall"
