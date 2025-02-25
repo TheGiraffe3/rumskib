@@ -15,6 +15,7 @@ outfitter "Deep Sky Advanced"
 	"Quad Beam Laser"
 
 outfitter "FW Security"
+	"Quad Beam Laser"
 
 outfitter "Kraz Advanced"
 	"Quad Beam Laser"
@@ -28,14 +29,18 @@ shipyard "Cleaver"
 planet "Maelstrom"
 	add shipyard "Cleaver"
 
+shipyard "Lionheart Advanced"
+	add "Buttle (Northern)"
+
 shipyard "Navy Advanced"
-	"Rumskib Destroyer"
+	add "Rumskib Destroyer"
 
 shipyard "Pirate Advanced"
-	"Cutlass"
+	add "Cutlass"
 
 shipyard "Syndicate Advanced"
-	"Dragonfly"
+	add "Dragonfly"
 
 shipyard "Tarazed Basics"
-	"Tanager"
+	add "Buttle"
+	add "Tanager"
