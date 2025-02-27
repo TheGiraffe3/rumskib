@@ -11,9 +11,21 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
+mission "rumskib: global: human mining start unlocked"
+	landing
+	invisible
+	non-blocking
+	to offer
+		has "visited planet: Luna"
+		has "visited planet: Earth"
+	on offer
+		set "global: rumskib: human mining start unlocked"
+		fail
+
 mission "global: Tranquility Achieved"
 	landing
 	invisible
+	non-blocking
 	to offer
 		"days since start" > 2010
 	on offer
