@@ -9,14 +9,25 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
+substitutions
+	"<starting planet>" "New Boston"
+	"<starting planet>" "Greenwater"
+		has "hai space start"
+	"<starting planet>" "Earth"
+		has "rumskib: human mining start"
+
 start "rumskib: human mining start"
 	name "Mining Start"
-	description `You grew up on Earth, the historical home of humanity. Life there was crowded, and as soon as possible, you got a loan from the bank, though the terms did raise some eyebrows. Now it's time for a quick transport to the Moon, and Luna's shipyards will offer one ship within price range - the Mining Drone. A not-so-legal outfitting corporation exists there, and offered to put in a bunk on the drone - for an extra price. Now, with a two hundred thousand credit loan, and only twenty thousand credits left, you prepare to start life as an asteroid miner...`
+	description `You grew up on Earth, the historical home of humanity. Life there was crowded, and as soon as possible, you got a loan from the bank, though the terms - to a textile worker - did raise some eyebrows. Now it's time for a quick transport to the Moon, and Luna's shipyards will offer one ship within price range - the Mining Drone. A not-so-legal outfitting corporation exists there, and offered to put in a bunk on the drone, for an extra price. Now, with a two hundred thousand credit loan, and only twenty thousand credits left, you prepare to start life as an asteroid miner...`
 	thumbnail "scene/buildings"
 	system "Sol"
 	planet "Luna"
 	date 16 05 3013
 	conversation "rumskib human mining start"
+	to reveal
+		has "rumskib: human mining start unlocked"
+	to unlock
+		has "rumskib: human mining start unlocked"
 	account
 		credits 20000
 		score 350
@@ -28,6 +39,7 @@ start "rumskib: human mining start"
 	set "species: human"
 	set "human space start"
 	set "Intro [0]: offered"
+	set "rumskib: human mining start"
 
 
 conversation "rumskib human mining start"
@@ -44,6 +56,7 @@ conversation "rumskib human mining start"
 	name
 	action
 		give ship "Mining Drone (Rumskib Start)" "Intola the Miner"
+		event "not from boston"
 	`Now, it's time to take the new ship to the "illegal" corporation on the other side of the Moon. Another trip, on the Mining Drone, and you reach the other side, where Modifications and Marauders adds a bunk and integrates the engines. Time for the first trip in your new Mining Drone - although apparently drones are not allowed to be crewed, and the Republic is classifying it as a fighter.`
 
 
@@ -112,6 +125,8 @@ start "rumskib: lampyrid start"
 			interest 0.004
 			term 365
 	set "license: Pilot's"
+	set "species: human"
+	set "human space start"
 	ship "Lampyrid Mk. II" "Serenity"
 		sprite "ship/lampyrid"
 		thumbnail "thumbnail/lampyrid"
@@ -154,36 +169,6 @@ start "rumskib: lampyrid start"
 		engine 0 80 1.8
 		engine 0 100 1.2
 		engine 64 28 0.7
-		"lateral engine" -23 -66
-			angle 90
-			right
-			under
-			zoom 0.3
-		"lateral engine" 23 -66
-			angle 270
-			left
-			under
-			zoom 0.3
-		"lateral engine" -79 0
-			angle 90
-			right
-			under
-			zoom 0.3
-		"lateral engine" 79 0
-			angle 270
-			left
-			under
-			zoom 0.3
-		"lateral engine" -30 68
-			angle 90
-			right
-			under
-			zoom 0.3
-		"lateral engine" 30 68
-			angle 270
-			left
-			under
-			zoom 0.3
 		"reverse engine" -64.5 -31.5 0.7
 		"reverse engine" 64.5 -31.5 0.7
 		"steering engine" -64.5 -31.5 0.7
