@@ -1,7 +1,7 @@
 # Copyright (c) 2021 by RisingLeaf and bene-dictator
 # Copyright (c) 2022 by alexrovw
 # Copyright (c) 2024 by roadrunner56
-# Cooyright (c) 2024 by Loymdayddaud
+# Copyright (c) 2024 by Loymdayddaud
 #
 # Rumskib is free software: you can redistribute it and/or modify it under the
 # terms of the GNU General Public License as published by the Free Software
@@ -138,6 +138,7 @@ mission "Rumskib: A Dead Man's Path 2"
 				`	"We should take a shuttle. It'll be the fastest way."`
 				`	"Let's take the maglev, we should make it before it gets dark."`
 					goto maglev
+			label shuttle
 			`	After a short shuttlecraft flight on Prime's extensive and well-maintained shuttle service, you and the siblings arrive at a provincial city, where you can see a small mountain that stands alone against the rest of the landscape.`
 				goto mountain
 			label maglev
