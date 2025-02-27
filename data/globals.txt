@@ -15,7 +15,7 @@ mission "global: Tranquility Achieved"
 	landing
 	invisible
 	to offer
-		"days since start" > 1040
+		"days since start" > 2010
 	on offer
 		set "global: tranquility achieved"
 		fail
