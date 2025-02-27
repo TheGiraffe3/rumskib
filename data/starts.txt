@@ -128,67 +128,66 @@ start "rumskib: lampyrid start"
 	set "species: human"
 	set "human space start"
 	ship "Lampyrid Mk. II" "Serenity"
-		sprite "ship/lampyrid"
-		thumbnail "thumbnail/lampyrid"
-		attributes
-			category "Transport"
-			"cost" 2760000
-			"shields" 5400
-			"hull" 4400
-			"required crew" 5
-			"bunks" 14
-			"mass" 240
-			"drag" 8.5
-			"heat dissipation" .7
-			"fuel capacity" 850
-			"cargo space" 160
-			"outfit space" 309
-			"engine capacity" 141
-			"weapon capacity" 50
-			"reverse thruster slot" 1
-			"lateral thruster slot" 1
-			"steering slot" 1
-			"thruster slot" 1
-			weapon
-				"blast radius" 100
-				"shield damage" 1000
-				"hull damage" 500
-				"hit force" 1500
-		outfits
-			"Anti-Missile Turret"
-			"KP-6 Photovoltaic Array"
-			"LP036a Battery Pack"
-			"D14-RN Shield Generator"
-			"Small Radar Jammer"
-		
-			"Impala Plasma Thruster"
-			"Impala Plasma Steering"
-			"Hyperdrive"
 
-		engine -64 28 0.7
-		engine 0 80 1.8
-		engine 0 100 1.2
-		engine 64 28 0.7
-		"reverse engine" -64.5 -31.5 0.7
-		"reverse engine" 64.5 -31.5 0.7
-		"steering engine" -64.5 -31.5 0.7
-			angle -180
-			left
-		"steering engine" 64 28 0.7
-			left
-		"steering engine" -64 28 0.7
-			right
-		"steering engine" 64.5 -31.5 0.7
-			angle -180
-			right
-		turret 0 9 "Anti-Missile Turret"
-		bay "Fighter" -26.5 9.5 under
-		bay "Fighter" 26.5 9.5 under
-		explode "tiny explosion" 10
-		explode "small explosion" 25
-		explode "medium explosion" 30
-		explode "large explosion" 15
-		"final explode" "final explosion medium" 1
+
+ship "Lampyrid Mk. II"
+	sprite "ship/lampyrid"
+	thumbnail "thumbnail/lampyrid"
+	attributes
+		category "Transport"
+		"cost" 2760000
+		"shields" 5400
+		"hull" 4400
+		"required crew" 5
+		"bunks" 14
+		"mass" 240
+		"drag" 8.5
+		"heat dissipation" .7
+		"fuel capacity" 850
+		"cargo space" 160
+		"outfit space" 309
+		"engine capacity" 141
+		"weapon capacity" 50
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Anti-Missile Turret"
+		"KP-6 Photovoltaic Array"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"Small Radar Jammer"
+		
+		"Impala Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+
+	engine -64 28 0.7
+	engine 0 80 1.8
+	engine 0 100 1.8
+	engine 64 28 0.7
+	"reverse engine" -64.5 -31.5 0.7
+	"reverse engine" 64.5 -31.5 0.7
+	"steering engine" -64.5 -31.5 0.7
+		angle -180
+		left
+	"steering engine" 64 28 0.7
+		left
+	"steering engine" -64 28 0.7
+		right
+	"steering engine" 64.5 -31.5 0.7
+		angle -180
+		right
+	turret 0 9 "Anti-Missile Turret"
+	bay "Fighter" -26.5 9.5 under
+	bay "Fighter" 26.5 9.5 under
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 30
+	explode "large explosion" 15
+	"final explode" "final explosion medium" 1
 
 
 conversation "lampyrid intro"
