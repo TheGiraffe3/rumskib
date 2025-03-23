@@ -181,7 +181,7 @@ outfit "Single Gatling Turret"
 
 
 
-=== Hand To Hand ===
+### Hand To Hand ###
 
 outfit "Old Man's Sword"
 	category "Unique"
