@@ -63,6 +63,7 @@ ship "Buttle"
 
 
 ship "Buttle" "Buttle (Northern)"
+	"variant map name" "Deep Sky Outfits"
 	outfits
 		"Energy Blaster" 2
 		"Heavy Laser"
