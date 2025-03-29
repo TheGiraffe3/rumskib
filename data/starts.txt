@@ -128,6 +128,7 @@ start "rumskib: lampyrid start"
 	set "license: Pilot's"
 	set "species: human"
 	set "human space start"
+	set "rumskib: lampyrid start"
 	ship "Lampyrid Mk. II" "Serenity"
 
 
