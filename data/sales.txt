@@ -13,6 +13,7 @@ outfitter "Deep Sky Basics"
 
 outfitter "Deep Sky Advanced"
 	"Quad Beam Laser"
+	"Quad Laser Turret"
 
 outfitter "FW Security"
 	"Quad Beam Laser"
@@ -20,8 +21,14 @@ outfitter "FW Security"
 outfitter "Kraz Advanced"
 	"Quad Beam Laser"
 
+outfitter "Pirate Advanced"
+	"Rumskib Single Gatling Turret"
+
 outfitter "Remnant"
 	"Inhibitor Turret"
+
+outfitter "South Pirate Advanced"
+	"Rumskib Quad Gatling Turret"
 
 shipyard "Cleaver"
 	"Cleaver"

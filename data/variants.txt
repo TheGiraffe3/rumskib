@@ -1,0 +1,75 @@
+# Copyright (c) 2025 by Loymdayddaud
+#
+# Rumskib is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Rumskib is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+
+ship "Buttle" "Buttle (Northern)"
+	"variant map name" "Deep Sky Outfits"
+	outfits
+		"Energy Blaster" 2
+		"Heavy Laser"
+
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		"Supercapacitor"
+		"D23-QP Shield Generator"
+		"Liquid Nitrogen Cooler"
+		
+		"A120 Atomic Thruster"
+		"A125 Atomic Steering"
+		"Hyperdrive"
+	gun "Heavy Laser"
+	gun "Energy Blaster"
+	gun "Energy Blaster"
+
+
+ship "Cleaver" "Cleaver (Defense)"
+	outfits
+		"Mining Laser" 3
+		"Heavy Laser" 2
+		"Heavy Anti-Missile Turret"
+
+		"Dwarf Core"
+		"LP144a Battery Pack"
+		"Asteroid Scanner" 3
+		"Outfits Expansion"
+
+		"A370 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Hyperdrive"
+	gun "Mining Laser"
+	gun "Heavy Laser"
+	gun "Mining Laser"
+	gun "Heavy Laser"
+	gun "Mining Laser"
+	turret "Heavy Anti-Missile Turret"
+
+
+ship "Modified Argosy" "Modified Argosy (Gat)"
+	outfits
+		"Gatling Gun" 4
+		"Gatling Gun Ammo" 5400
+		"Gatling Turret"
+		"Rumskib Quad Gatling Turret"
+		
+		"NT-200 Nucleovoltaic"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Small Radar Jammer"
+		"Laser Rifle" 12
+		
+		"Greyhound Plasma Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+	gun
+	gun
+	gun
+	gun
+	turret "Rumskib Quad Gatling Turret"
+	turret "Gatling Turret"

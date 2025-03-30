@@ -1,0 +1,199 @@
+# Copyright (c) 2025 by Loymdayddaud
+#
+# Rumskib is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Rumskib is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+outfit "Quad Beam Laser"
+	category "Guns"
+	series "Guns"
+	index 01051
+	cost 29000
+	thumbnail "outfit/quad laser"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	weapon
+		sprite "projectile/laser"
+			"frame rate" 1
+		sound "laser"
+		"hit effect" "beam laser impact"
+		"inaccuracy" .2
+		"velocity" 300
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 3.12
+		"firing heat" 4.5
+		"shield damage" 3.9
+		"hull damage" 5
+	description "In the early part of the space era, the settlements in the region of space known as the Deep developed in relative isolation from the rest of human space. One result of that isolation is that their weapons technology mostly uses beam weapons, instead of the energy projectile weapons that are more common elsewhere."
+	description "	The Quadruple Beam Laser is a modified version of the regular Beam Laser. The designers took the opportunity to make it slightly more precise and decreased the heat per second for each individual laser, but as four packed together it is still much hotter than a normal laser."
+
+outfit "Quad Laser Turret"
+	category "Turrets"
+	series "Turrets"
+	index 01041
+	cost 309000
+	thumbnail "outfit/quad laser turret"
+	"mass" 45
+	"outfit space" -45
+	"weapon capacity" -45
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/2x laser"
+			"frame rate" 1
+		"hardpoint sprite" "hardpoint/laser turret"
+		"hardpoint offset" -0.5 8.
+		sound "laser"
+		"hit effect" "beam laser impact"
+		"inaccuracy" .34
+		"turret turn" 2.14
+		"velocity" 300
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 2.622
+		"firing heat" 5.968
+		"shield damage" 3.98
+		"hull damage" 5.35
+	description "Unlike the Laser Turret, the quadified version does not turn fast enough to hold off fighter pilots. However, the nearly doubled damage output more than makes up for this slight disadvantage."
+	description "	Although it would make more sense to mount a Quad Beam Laser on a turret, Deep Sky instead decided to double the lasers held by the normal laser turret as a cheaper way to increase the damage output."
+
+
+outfit "Quad Plasma Turret"
+	category "Turrets"
+	series "Turrets"
+	index 01091
+	cost 980000
+	thumbnail "outfit/quad plasma turret"
+	"mass" 122
+	"outfit space" -122
+	"weapon capacity" -122
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/plasma"
+			"frame rate" 3
+		"hardpoint sprite" "hardpoint/plasma turret"
+		"hardpoint offset" 15.
+		sound "plasma"
+		"hit effect" "plasma explosion"
+		"inaccuracy" 2.4
+		"turret turn" 1.07
+		"velocity" 14
+		"lifetime" 39
+		"reload" 4.5
+		"firing energy" 30.4
+		"firing heat" 192
+		"hit force" 45
+		"shield damage" 63
+		"hull damage" 25
+		"heat damage" 345
+	description "The Plasma Turret is a pair of Plasma Cannons mounted on a turret so that they can fire in any direction. It is a fearsome weapon, but only the largest of ships have the space and the energy that it requires."
+	description "	The Quad Plasma Turret is even more powerful then the Plasma Turret, but its size makes it entirely impractical - it costs more than a fleet of small ships and would occupy the entirety of a ship's weapon space. As such, no independent captain will use it."
+
+
+outfit "Rumskib Quad Gatling Turret"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01149
+	cost 230000
+	thumbnail "outfit/gat turret quad"
+	"display name" "Quad Gatling Turret"
+	"mass" 45
+	"outfit space" -45
+	"weapon capacity" -45
+	"turret mounts" -1
+	"required crew" 1
+	"gatling round capacity" 13000
+	weapon
+		sound "gatling"
+		sprite "projectile/2x tinyflare"
+			"random start frame"
+		"hardpoint sprite" "hardpoint/gat turret hardpoint"
+		"submunition" "gbullet"
+			"offset" 1.5 -6
+			"facing" 0.3
+		"submunition" "gbullet"
+			"offset" -1.5 -6
+			"facing" -0.3
+		"submunition" "gbullet"
+			"offset" 1.5 -6
+			"facing" 0.3
+		"submunition" "gbullet"
+			"offset" -1.5 -6
+			"facing" -0.3
+		ammo "Gatling Gun Ammo" 4
+		icon "icon/gat turret"
+		"inaccuracy" 2
+		"turret turn" 3.6
+		"velocity" 14
+		"lifetime" 1
+		"reload" 3
+		"burst count" 190
+		"burst reload" 1
+		"firing energy" .06
+		"firing heat" 5
+		"cluster"
+		"hit effect" "bullet impact"
+	description `The Quad Gatling Turret was born when a pirate, taking a page from the Gatling Turret, thought to replace the blasters on a Quad Blaster Turret with a double pair of Gatling Guns.`
+
+outfit "Rumskib Single Gatling Turret"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01151
+	cost 90000
+	thumbnail "outfit/gat turret single"
+	"display name" "Single Gatling Turret"
+	"mass" 13
+	"outfit space" -13
+	"weapon capacity" -13
+	"turret mounts" -1
+	"required crew" 1
+	"gatling round capacity" 3000
+	"drag" 0.01
+	weapon
+		sound "gatling"
+		sprite "projectile/2x tinyflare"
+			"random start frame"
+		"hardpoint sprite" "hardpoint/gat turret single"
+		"submunition" "gbullet"
+			"offset" 1.5 -6
+			"facing" 0.3
+		ammo "Gatling Gun Ammo"
+		icon "icon/gat turret"
+		"inaccuracy" 1.3
+		"turret turn" 4.4
+		"velocity" 20
+		"lifetime" 1
+		"reload" 3
+		"burst count" 180
+		"burst reload" 1
+		"firing energy" .06
+		"firing heat" 5
+		"cluster"
+		"hit effect" "bullet impact"
+	description `In an act that would make Dr. Richard J. Gatling spin in his grave with the ferocity of the barrels of his invention, the Gatling Turret was born when a resourceful pirate thought to replace the Energy Blasters on a Blaster Turret with a pair of Gatling Guns. Ever since, the dominion of the Gatling Turret has spread across the Southern Rim, terrorizing merchants and law enforcement alike with its unparalleled ability to tear apart the hulls of ships.`
+	description `	The Single Gatling Turret came into existence when a pirate decided that the space requirements for the Blaster Turret were too high and dismounted one of the Gatling guns, making an unbalanced weapon that slows ships down but turns even faster then a normal turret. As a result, this turret is the best anti-fighter weapon employed by pirates, mainly against the Navy.`
+
+
+
+### Hand To Hand ###
+
+outfit "Old Man's Sword"
+	category "Unique"
+	series "H2H"
+	index 99030
+	cost 220000
+	thumbnail "outfit/sword"
+	"capture attack" 1.4
+	"capture defense" 1
+	"unplunderable" 1
+	"unique" 1
+	description "While swords are seen today as being old curios and commemorative objects, rendered useless when gunpowder became dominant on the battlefield thousands of years ago, this sword is unlike any you have seen before. Despite how heavy it looks, it is remarkably light, and there are inscriptions on the blade itself that don't appear to be like any human language."
+	description "	For whatever reason, the red beam within the blade seems to pulsate as you swing it; perhaps there is more to the sword than you know."

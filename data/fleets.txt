@@ -191,6 +191,8 @@ fleet "Large Southern Pirates"
 	add variant
 		"Rumskib Marauder Behemoth"
 		"Marauder Combat Drone"
+	add variant
+		"Modified Argosy (Gat)" 2
 
 
 fleet "Marauder fleet VI"

@@ -35,7 +35,10 @@ License: CC-BY-SA-4.0
 Comment: Derived from works by Maximilian Korber and Gefüllte Taubenbrust (under the same license).
 
 Files:
+ images/hardpoint/gat?turret*
+ images/outfit/gat?turret*
  images/outfit/quad?laser*
+ images/outfit/quad?plasma?turret*
  images/ship/buttle*
  images/ship/dragonfly*
  images/ship/marauder?boxwing*
