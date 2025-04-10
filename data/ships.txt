@@ -726,7 +726,6 @@ ship "Swan (Rumskib)"
 		"Quantum Key Stone"
 
 		"Smelter-Class Thruster"
-		"Smelter-Class LTC"
 		"Smelter-Class Steering"
 		"Scram Drive"
 
