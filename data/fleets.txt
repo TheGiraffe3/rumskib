@@ -340,3 +340,39 @@ fleet "Large Kor Mereti"
 		"Model 32"
 		"Model 16" 3
 		"Model 8" 2
+
+
+
+#### KOR SESTOR ####
+
+# The Tek Far 109 doesn't show up except three at a time in vanilla. This doesn't make sense, as they would be excellent
+# support for other vessels and are perfectly capable of fending for themselves if need be.
+fleet "Large Kor Sestor"
+	add variant 5
+		"Tek Far 109"
+		"Far Lek 14" 9
+		"Far Osk 27" 7
+	add variant 4
+		"Tek Far 109"
+		"Far Lek 14" 9
+		"Far Osk 27" 7
+		"Met Par Tek 53"
+	add variant 4
+		"Tek Far 109"
+		"Far Lek 14" 9
+		"Far Osk 27" 7
+		"Met Par Tek 53 (Sniper)"
+	add variant 4
+		"Tek Far 109" 2
+		"Far Lek 14" 18
+		"Far Osk 27" 14
+	add variant 2
+		"Tek Far 109" 4
+		"Far Lek 14" 36
+		"Far Osk 27" 28
+	add variant
+		"Tek Far 109" 2
+		"Far Lek 14" 18
+		"Far Osk 27" 14
+		"Kar Ik Vot 349 (Defense)"
+		"Kar Ik Vot 349 (Offense)"
