@@ -8,6 +8,12 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
+system "Arculus"
+	add fleet "Remnant Capital" 10000
+
+system "Cinxia"
+	add fleet "Remnant Capital" 10000
+
 system "Illo Nam"
 	pos -547 -458
 	government Uninhabited
@@ -32,3 +38,6 @@ system "Illo Nam"
 		sprite planet/desert4
 		distance 1601
 		period 402.642
+
+system "Pantica"
+	add fleet "Remnant Capital" 10000

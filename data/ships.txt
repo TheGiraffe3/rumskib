@@ -666,3 +666,128 @@ ship "Squall"
 	explode "large explosion" 20
 	"final explode" "final explosion medium" 1
 	description "The first carrier that the Wanderers have built for millennia, the Squall was made to push back Unfettered invasions and attack new enemies in old Korath space."
+
+
+
+#### REMNANT
+
+# Taken from Endless Sky Delta, courtesy of Zitchas.
+ship "Swan (Rumskib)"
+	plural "Swans"
+	sprite "ship/remnant/swan/swan"
+		"rewind"
+	thumbnail "thumbnail/remnant/swan"
+	"display name" "Swan"
+	attributes
+		category "Utility"
+		licenses
+			"Remnant Capital"
+		"cost" 23720000
+		"shields" 39200
+		"hull" 12800
+		"required crew" 37
+		"bunks" 153
+		"mass" 7380
+		"drag" 13.1
+		"heat dissipation" .4
+		"fuel capacity" 2500
+		"ramscoop" 8.75
+		"cargo space" 275
+		"outfit space" 772
+		"weapon capacity" 180
+		"engine capacity" 252
+		"solar collection" 5
+		"shield generation" 6.1
+		"shield energy" 4.5
+		"hull repair rate" 1.7
+		"hull energy" 1.1
+		"cloak" .02
+		"cloaking energy" 3.1
+		"cloaking fuel" .2
+		"cloaked communication" 1
+		"cloaked scanning" 1
+		"gaslining" 1
+		"outfit scan power" 23
+		"outfit scan efficiency" 28
+		"tactical scan" 48
+		weapon
+			"blast radius" 400
+			"shield damage" 4800
+			"hull damage" 2000
+			"hit force" 7200
+	outfits
+		"Inhibitor Turret" 3
+		"Point Defense Turret" 3
+
+		"Aeon Cell"
+		"Epoch Cell"
+		"Crystal Capacitor" 2
+		"Thermoelectric Cooler" 3
+		"Quantum Key Stone"
+
+		"Smelter-Class Thruster"
+		"Smelter-Class LTC"
+		"Smelter-Class Steering"
+		"Scram Drive"
+
+	engine 0 189
+		"zoom" 1.4
+	engine -26 183
+	engine 26 183
+	engine -109 115
+		"zoom" 0.6
+	engine 109 115
+		"zoom" 0.6
+	gun 0 -191.5
+	gun -12 -175.5
+	gun 12 -177.5
+	gun -23 23
+		angle 315
+	gun 21 21
+		angle 135
+	gun -182.5 105
+		angle 200
+	gun 181 103
+		angle 160
+	turret 0 -164.5 "Point Defense Turret"
+	turret 0 -99 "Inhibitor Turret"
+	turret -117 62.5 "Point Defense Turret"
+	turret 117 62.5 "Point Defense Turret"
+	turret -109 72.5 "Inhibitor Turret"
+	turret 109 72.5 "Inhibitor Turret"
+	bay "Fighter" -23 -25
+		"launch effect" "remnant external"
+	bay "Fighter" 23 -25
+		"launch effect" "remnant external"
+	bay "Fighter" -48 75
+		"launch effect" "remnant external"
+	bay "Fighter" 48 75
+		"launch effect" "remnant external"
+	bay "Drone" -23 -25
+		"launch effect" "remnant external"
+	bay "Drone" 23 -25
+		"launch effect" "remnant external"
+	bay "Drone" -23 -25
+		"launch effect" "remnant external"
+	bay "Drone" 23 -25
+		"launch effect" "remnant external"
+	bay "Drone" -48 75
+		"launch effect" "remnant external"
+	bay "Drone" 48 75
+		"launch effect" "remnant external"
+	bay "Drone" -48 75
+		"launch effect" "remnant external"
+	bay "Drone" 48 75
+		"launch effect" "remnant external"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "Historically, the Remnant have not needed to support remote fleet operations. It had, however, been anticipated as a part of their contingency plans to support large scale evacuations. The first Remnant survived by running, modern Remnant prosper through mobility, and it is expected that the Remnant of the future shall thrive by those same means."
+	description "	The Swan, thus, was designed first and foremost to be a refueler. Not only carrying a prodigous amount of fuel as well as massive arrays to collect more, but also ferrying a number of fighters and drones that can be used to deliver fuel to other ships in the fleet. It can also carry a significant amount of cargo."
+	description "	The cloaking technology is built into the Swan's hull; it cannot be removed or transferred to another ship. The Remnant engineers note that, due to its size, the Swan's cloak is both slower and consumes significantly more energy and fuel than other present-day designs."
