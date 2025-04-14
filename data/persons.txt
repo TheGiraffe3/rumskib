@@ -8,8 +8,6 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-
-
 person "Sanujab"
 	government "Hai"
 	frequency 100
@@ -670,3 +668,77 @@ person "Gefullte Taubenbrust"
 person "Danau"
 	system
 		government "Free Worlds" "Independent" "Neutral" "Pirate" "Republic" "Syndicate"
+
+
+
+person "Azure"
+	government "Azure"
+	frequency 100
+	personality
+		disables harvests heroic
+	system
+		government "Avgi" "Free Worlds" "Republic" "Syndicate"
+	phrase
+		word
+			"Realism is an illusion." 2
+			"Tournament winners get special prizes."
+			"A file from the fifteenth?!"
+			"Skill issue."
+			"Krill issue."
+			"Realism? What's that?"
+			"My aliens are, gasp, realistic!"
+			"It is cooking."
+			"AI improvements never were easier."
+			"AI improvements never were harder."
+			"Time for a totally random phrase: Avgi."
+			"I've done the math."
+			"The government doesn't want you to know this, but the octopi in the park are free. You can take them. I have eleven octopi."
+			"Goodbye Doom Barge Mk. 8."
+			"Dew it."
+			"Thank you for volunteering to write more Avgi story."
+			"They do not defect. They do not defect!"
+			"I will commit a Balance Sin."
+			"Don't ask why I needed this information."
+			"Yes, they ignore you."
+			"Yes, we ignore them."
+			"The devs have their own plans."
+			`"Phased Laser Array," does that mean anything to you?`
+			"Metallic trees?!"
+			"Every single player-requested feature shall be implemented into the Avgi."
+			"It is cooking."
+	ship "Shield Beetle (Azure)" "Doom Barge Mk. 9"
+
+
+ship "Shield Beetle" "Shield Beetle (Azure)"
+	add attributes
+		"outfit space" 40
+	outfits
+		"Anomalous Mass" 29
+		"Cryogenic Deuterium Tank"
+		"Drag Cannon"
+		"Finisher Pod" 7
+		"Finisher Torpedo" 280
+		"Heatsink Partition" 6
+		"Hyperdrive"
+		"Inductive Extractor" 4
+		"Jump Drive"
+		"Ka'het Grand Restorer" 2
+		"Ka'het Sustainer Nacelles"
+		"Large Battery Module"
+		"Outfits Expansion" 5
+		"Overclocked Repair Module"
+		"Refueling Module" 3
+		"Shield Refactor Module" 5
+		`Z-999 "Arc" Fusion Torch` 
+
+
+government "Azure"
+	swizzle 12
+	
+	"player reputation" 1
+	"attitude toward"
+		"Avgi" .01
+		"Twilight Guard" .01
+		"Wandering Fleet" .01
+	"bribe" 0
+	"fine" 0
