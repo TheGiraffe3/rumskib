@@ -205,15 +205,15 @@ outfit "Rumskib Quad Gatling Turret"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 01149
-	cost 230000
+	cost 180000
 	thumbnail "outfit/gat turret quad"
 	"display name" "Quad Gatling Turret"
-	"mass" 19
-	"outfit space" -45
-	"weapon capacity" -45
+	"mass" 17
+	"outfit space" -41
+	"weapon capacity" -41
 	"turret mounts" -1
 	"required crew" 1
-	"gatling round capacity" 13000
+	"gatling round capacity" 12000
 	weapon
 		sound "gatling"
 		sprite "projectile/2x tinyflare"
@@ -233,18 +233,19 @@ outfit "Rumskib Quad Gatling Turret"
 			"facing" -0.3
 		ammo "Gatling Gun Ammo" 4
 		icon "icon/gat turret"
-		"inaccuracy" 2
-		"turret turn" 3.6
-		"velocity" 14
+		"inaccuracy" 4
+		"turret turn" 2.7
+		"velocity" 16
 		"lifetime" 1
 		"reload" 3
-		"burst count" 190
+		"burst count" 180
 		"burst reload" 1
-		"firing energy" .06
-		"firing heat" 5
+		"firing energy" .12
+		"firing heat" 10
 		"cluster"
 		"hit effect" "bullet impact"
-	description `The Quad Gatling Turret was born when a pirate, taking a page from the Gatling Turret, thought to replace the blasters on a Quad Blaster Turret with a double pair of Gatling Guns.`
+	description `When the war broke out the Pirates had to adapt to the new circumstances. The Quad Gatling Turret was born when a pirate, taking a page from the Gatling Turret, thought to replace the blasters on a Quad Blaster Turret with a double pair of Gatling Guns.`
+
 
 outfit "Rumskib Single Gatling Turret"
 	category "Secondary Weapons"
@@ -253,16 +254,15 @@ outfit "Rumskib Single Gatling Turret"
 	cost 90000
 	thumbnail "outfit/gat turret single"
 	"display name" "Single Gatling Turret"
-	"mass" 7
-	"outfit space" -13
-	"weapon capacity" -13
+	"mass" 9
+	"outfit space" -15
+	"weapon capacity" -15
 	"turret mounts" -1
 	"required crew" 1
 	"gatling round capacity" 3000
-	"drag" 0.01
 	weapon
 		sound "gatling"
-		sprite "projectile/2x tinyflare"
+		sprite "projectile/tinyflare"
 			"random start frame"
 		"hardpoint sprite" "hardpoint/gat turret single"
 		"submunition" "gbullet"
@@ -270,19 +270,19 @@ outfit "Rumskib Single Gatling Turret"
 			"facing" 0.3
 		ammo "Gatling Gun Ammo"
 		icon "icon/gat turret"
-		"inaccuracy" 1.3
-		"turret turn" 4.4
-		"velocity" 20
+		"inaccuracy" 2
+		"turret turn" 4.8
+		"velocity" 16
 		"lifetime" 1
 		"reload" 3
 		"burst count" 180
 		"burst reload" 1
-		"firing energy" .06
-		"firing heat" 5
+		"firing energy" .03
+		"firing heat" 2.5
 		"cluster"
 		"hit effect" "bullet impact"
 	description `In an act that would make Dr. Richard J. Gatling spin in his grave with the ferocity of the barrels of his invention, the Gatling Turret was born when a resourceful pirate thought to replace the Energy Blasters on a Blaster Turret with a pair of Gatling Guns. Ever since, the dominion of the Gatling Turret has spread across the Southern Rim, terrorizing merchants and law enforcement alike with its unparalleled ability to tear apart the hulls of ships.`
-	description `	The Single Gatling Turret came into existence when a pirate decided that the space requirements for the Blaster Turret were too high and dismounted one of the Gatling guns, making an unbalanced weapon that slows ships down but turns even faster then a normal turret. As a result, this turret is the best anti-fighter weapon employed by pirates, mainly against the Navy.`
+	description `	The Single Gatling Turret came into existence when a pirate decided that the space requirements for the Blaster Turret were too high and dismounted one of the Gatling guns, creating a turret that turns even faster. As a result, this turret is the best anti-fighter weapon employed by pirates.`
 
 
 
