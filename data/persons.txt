@@ -704,7 +704,9 @@ government "Azure"
 	"player reputation" 1
 	"attitude toward"
 		"Avgi" .01
-		"Twilight Guard" .01
-		"Wandering Fleet" .01
+		"Avgi (Consonance)" .01
+		"Avgi (Dissonance)" .01
+		"Avgi (Twilight Guard)" .01
+		"Avgi (Wandering Fleet)" .01
 	"bribe" 0
 	"fine" 0
