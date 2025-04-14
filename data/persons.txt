@@ -637,40 +637,6 @@ ship "Vyrmeid" "Vyrmeid C (Hyperdrive)"
 
 
 
-person "Marauding Max"
-	system
-		government "Free Worlds" "Independent" "Neutral" "Pirate" "Republic" "Syndicate"
-
-person "Captain Nate"
-	system
-		government "Free Worlds" "Independent" "Neutral" "Pirate" "Republic" "Syndicate"
-
-person "Power of the People"
-	system
-		government "Free Worlds" "Independent" "Neutral" "Pirate" "Republic" "Syndicate"
-
-person "Local God"
-	system
-		government "Free Worlds" "Independent" "Neutral" "Pirate" "Republic" "Syndicate"
-
-person "Rais Iris XVIII"
-	system
-		government "Coalition" "Wanderer"
-
-person "Brick"
-	system
-		government "Free Worlds" "Independent" "Neutral" "Pirate" "Republic" "Syndicate"
-
-person "Gefullte Taubenbrust"
-	system
-		government "Free Worlds" "Independent" "Neutral" "Pirate" "Republic" "Syndicate" "Wanderer"
-
-person "Danau"
-	system
-		government "Free Worlds" "Independent" "Neutral" "Pirate" "Republic" "Syndicate"
-
-
-
 person "Azure"
 	government "Azure"
 	frequency 100
