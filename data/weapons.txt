@@ -208,7 +208,7 @@ outfit "Rumskib Quad Gatling Turret"
 	cost 230000
 	thumbnail "outfit/gat turret quad"
 	"display name" "Quad Gatling Turret"
-	"mass" 71
+	"mass" 19
 	"outfit space" -45
 	"weapon capacity" -45
 	"turret mounts" -1
@@ -253,7 +253,7 @@ outfit "Rumskib Single Gatling Turret"
 	cost 90000
 	thumbnail "outfit/gat turret single"
 	"display name" "Single Gatling Turret"
-	"mass" 19
+	"mass" 7
 	"outfit space" -13
 	"weapon capacity" -13
 	"turret mounts" -1
