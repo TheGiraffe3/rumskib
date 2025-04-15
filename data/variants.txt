@@ -31,7 +31,7 @@ ship "Buttle" "Buttle (Northern)"
 
 ship "Cleaver" "Cleaver (Defense)"
 	outfits
-		"Mining Laser" 3
+		"Mining Laser" 4
 		"Heavy Laser" 2
 		"Heavy Anti-Missile Turret"
 
@@ -45,6 +45,7 @@ ship "Cleaver" "Cleaver (Defense)"
 		"Hyperdrive"
 	gun "Mining Laser"
 	gun "Heavy Laser"
+	gun "Mining Laser"
 	gun "Mining Laser"
 	gun "Heavy Laser"
 	gun "Mining Laser"

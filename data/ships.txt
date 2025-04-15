@@ -68,18 +68,18 @@ ship "Cleaver"
 	thumbnail "thumbnail/cleaver"
 	attributes
 		category "Utility"
-		"cost" 5230000
-		"shields" 3500
-		"hull" 1500
-		"required crew" 8
-		"bunks" 17
+		"cost" 6890000
+		"shields" 3400
+		"hull" 1600
+		"required crew" 9
+		"bunks" 13
 		"mass" 480
 		"drag" 6.3
 		"heat dissipation" .34
 		"fuel capacity" 700
 		"cargo space" 145
-		"outfit space" 277
-		"weapon capacity" 134
+		"outfit space" 289
+		"weapon capacity" 146
 		"engine capacity" 80
 		weapon
 			"blast radius" 72
@@ -87,7 +87,7 @@ ship "Cleaver"
 			"hull damage" 360
 			"hit force" 1080
 	outfits
-		"Mining Laser" 5
+		"Mining Laser" 6
 		"Tractor Beam"
 
 		"Dwarf Core"
@@ -98,19 +98,20 @@ ship "Cleaver"
 		"A375 Atomic Steering"
 		"Hyperdrive"
 
-	gun 0 -89.5 "Mining Laser"
-	gun -26 -92 "Mining Laser"
-	gun -17.5 -93 "Mining Laser"
-	gun 26 -92 "Mining Laser"
-	gun 17.5 -93 "Mining Laser"
+	gun -25.5 -90 "Mining Laser"
+	gun -10 -89.5 "Mining Laser"
+	gun -10 -89.5 "Mining Laser"
+	gun 10 -89.5 "Mining Laser"
+	gun 10 -89.5 "Mining Laser"
+	gun 25.5 -90 "Mining Laser"
 	turret 0 -11 "Tractor Beam"
-	bay Fighter 18.5 17.5
+	bay Fighter 55.5 -64.5
 		under
-	bay Fighter -18.5 17.5
+	bay Fighter -55.5 -64.5
 		under
-	bay Drone 18.5 17.5
+	bay Drone 4 -92
 		under
-	bay Drone -18.5 17.5
+	bay Drone -4 -92
 		under
 	engine -21 91.5
 	engine 21 91.5

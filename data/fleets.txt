@@ -143,14 +143,20 @@ fleet "Rumskib Syndicate Defense"
 
 
 fleet "Human Miners"
-	add variant
+	add variant 4
 		"Cleaver"
 		"Mining Drone" 2
 		"Barb (Miner)" 2
-	add variant
+	add variant 3
 		"Cleaver (Defense)"
 		"Mining Drone" 2
 		"Barb" 2
+	add variant
+		"Cleaver"
+		"Mining Drone"
+		"Marauder Combat Drone"
+		"Boxwing"
+		"Marauder Boxwing"
 
 
 fleet "Large Northern Pirates"
