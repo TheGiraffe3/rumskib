@@ -44,7 +44,7 @@ mission "Rumskib: Add Quad Gat Turret"
 
 event "rumskib: add quad gat turret"
 	outfitter "South Pirate Advanced"
-		add "Gatling Turret (Quad)"
+		add "Rumskib Quad Gatling Turret"
 
 shipyard "Cleaver"
 	"Cleaver"
