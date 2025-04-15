@@ -328,6 +328,7 @@ outfit "Rumskib Single Gatling Turret"
 	description `	The Single Gatling Turret came into existence when a pirate decided that the space requirements for the Blaster Turret were too high and dismounted one of the Gatling guns, creating a turret that turns even faster. As a result, this turret is the best anti-fighter weapon employed by pirates.`
 
 
+
 ### Hand To Hand ###
 
 outfit "Old Man's Sword"
