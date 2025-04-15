@@ -28,7 +28,7 @@ outfitter "South Pirate Advanced"
 	"Rumskib Single Gatling Turret"
 
 outfitter "Rumskib Core Pirate Advanced"
-	"Gatling Turret (Triple)"
+	"Rumskib Triple Gatling Turret"
 
 planet "Buccaneer Bay"
 	add outfitter "Rumskib Core Pirate Advanced"
@@ -56,7 +56,7 @@ event "rumskib: add quad gat turret"
 	outfitter "South Pirate Advanced"
 		add "Rumskib Quad Gatling Turret"
 	outfitter "Rumskib Core Pirate Advanced"
-		add "Rumskib Triple Gatling Turret"
+		add "Rumskib Quad Gatling Turret"
 
 shipyard "Cleaver"
 	"Cleaver"
