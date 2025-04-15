@@ -204,7 +204,7 @@ outfit "Quad Plasma Turret"
 outfit "Rumskib Quad Gatling Turret"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
-	index 01149
+	index 01152
 	cost 180000
 	thumbnail "outfit/gat turret quad"
 	"display name" "Quad Gatling Turret"
@@ -247,10 +247,53 @@ outfit "Rumskib Quad Gatling Turret"
 	description `When the war broke out the Pirates had to adapt to the new circumstances. The Quad Gatling Turret was born when a pirate, taking a page from the Gatling Turret, thought to replace the blasters on a Quad Blaster Turret with a double pair of Gatling Guns.`
 
 
-outfit "Rumskib Single Gatling Turret"
+outfit "Rumskib Triple Gatling Turret"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 01151
+	cost 150000
+	thumbnail "outfit/gat turret triple"
+	"display name" "Triple Gatling Turret"
+	"mass" 14
+	"outfit space" -32
+	"weapon capacity" -32
+	"turret mounts" -1
+	"required crew" 1
+	"gatling round capacity" 9000
+	weapon
+		sound "gatling"
+		sprite "projectile/2x tinyflare"
+			"random start frame"
+		"hardpoint sprite" "hardpoint/gat turret triple"
+		"submunition" "gbullet"
+			"offset" 1.5 -6
+			"facing" 0.3
+		"submunition" "gbullet"
+			"offset" -1.5 -6
+			"facing" -0.3
+		"submunition" "gbullet"
+			"offset" 0 -6
+			"facing" 0
+		ammo "Gatling Gun Ammo" 3
+		icon "icon/gat turret"
+		"inaccuracy" 3
+		"turret turn" 3.1
+		"velocity" 16
+		"lifetime" 1
+		"reload" 3
+		"burst count" 180
+		"burst reload" 1
+		"firing energy" .09
+		"firing heat" 7.5
+		"cluster"
+		"hit effect" "bullet impact"
+	description `	The standard Gatling Turret version in the Core. They're richer, ergo more barrels. The Triple Gat Turret is an unnerving threat for any honest merchant.`
+
+
+outfit "Rumskib Single Gatling Turret"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01149
 	cost 90000
 	thumbnail "outfit/gat turret single"
 	"display name" "Single Gatling Turret"
@@ -283,7 +326,6 @@ outfit "Rumskib Single Gatling Turret"
 		"hit effect" "bullet impact"
 	description `In an act that would make Dr. Richard J. Gatling spin in his grave with the ferocity of the barrels of his invention, the Gatling Turret was born when a resourceful pirate thought to replace the Energy Blasters on a Blaster Turret with a pair of Gatling Guns. Ever since, the dominion of the Gatling Turret has spread across the Southern Rim, terrorizing merchants and law enforcement alike with its unparalleled ability to tear apart the hulls of ships.`
 	description `	The Single Gatling Turret came into existence when a pirate decided that the space requirements for the Blaster Turret were too high and dismounted one of the Gatling guns, creating a turret that turns even faster. As a result, this turret is the best anti-fighter weapon employed by pirates.`
-
 
 
 ### Hand To Hand ###
