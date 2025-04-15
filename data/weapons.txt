@@ -287,7 +287,7 @@ outfit "Rumskib Triple Gatling Turret"
 		"firing heat" 7.5
 		"cluster"
 		"hit effect" "bullet impact"
-	description `	The standard Gatling Turret version in the Core. They're richer, ergo more barrels. The Triple Gat Turret is an unnerving threat for any honest merchant.`
+	description `The standard version of the Gatling Turret in the Core. The Triple Gat Turret is an unnerving threat for any honest merchant, with more barrels then the default version.`
 
 
 outfit "Rumskib Single Gatling Turret"
