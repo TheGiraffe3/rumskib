@@ -27,7 +27,7 @@ outfitter "Remnant"
 outfitter "South Pirate Advanced"
 	"Rumskib Single Gatling Turret"
 
-mission "Rumskib Add Quad Gat Turret"
+mission "Rumskib: Add Quad Gat Turret"
 	outfitter
 	invisible
 	source
@@ -35,7 +35,7 @@ mission "Rumskib Add Quad Gat Turret"
 	to offer
 		has "event: war begins"
 	on offer
-		event "rumskib add quad gat turret"
+		event "rumskib: add quad gat turret" 0
 		conversation
 			scene "outfit/gat turret quad"
 			`As you watch an one-eyed captain proudly polishing a new Gatling turret with four barrels, it occurs to you that the Pirates must have joined the arms race.`
