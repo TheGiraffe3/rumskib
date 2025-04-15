@@ -41,7 +41,7 @@ mission "Rumskib: Add Quad Gat Turret"
 			`As you watch an one-eyed captain proudly polishing a new Gatling turret with four barrels, it occurs to you that the Pirates must have joined the arms race.`
 				decline
 
-event "rumskib add quad gat turret"
+event "rumskib: add quad gat turret"
 	outfitter "South Pirate Advanced"
 		add "Gatling Turret (Quad)"
 
