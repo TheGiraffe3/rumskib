@@ -38,7 +38,8 @@ mission "Rumskib: Add Quad Gat Turret"
 		event "rumskib: add quad gat turret" 0
 		conversation
 			scene "outfit/gat turret quad"
-			`As you watch an one-eyed captain proudly polishing a new Gatling turret with four barrels, it occurs to you that the Pirates must have joined the arms race.`
+			`When you walk into the outfitter, you notice the proprietor proudly polishing the quadruple barrels of a new Gatling Turret. "Ho, Captain!" he calls. "Come buy the new Quad Gatling Turret! Only one hundred and eighty thousand credits, for enough firepower to destroy any hostile ship!"`
+			`	The pirates must have joined the arms race when the rebellion started.`
 				decline
 
 event "rumskib: add quad gat turret"
