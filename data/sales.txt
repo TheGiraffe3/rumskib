@@ -27,6 +27,16 @@ outfitter "Remnant"
 outfitter "South Pirate Advanced"
 	"Rumskib Single Gatling Turret"
 
+outfitter "Rumskib Core Pirate Advanced"
+	"Rumskib Triple Gatling Turret"
+
+planet "Buccaneer Bay"
+	add outfitter "Rumskib Core Pirate Advanced"
+planet "New Tortuga"
+	add outfitter "Rumskib Core Pirate Advanced"
+planet "Smuggler's Den"
+	add outfitter "Rumskib Core Pirate Advanced"
+
 mission "Rumskib: Add Quad Gat Turret"
 	outfitter
 	invisible
@@ -44,6 +54,8 @@ mission "Rumskib: Add Quad Gat Turret"
 
 event "rumskib: add quad gat turret"
 	outfitter "South Pirate Advanced"
+		add "Rumskib Quad Gatling Turret"
+	outfitter "Rumskib Core Pirate Advanced"
 		add "Rumskib Quad Gatling Turret"
 
 shipyard "Cleaver"

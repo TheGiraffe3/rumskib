@@ -204,7 +204,7 @@ outfit "Quad Plasma Turret"
 outfit "Rumskib Quad Gatling Turret"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
-	index 01149
+	index 01152
 	cost 180000
 	thumbnail "outfit/gat turret quad"
 	"display name" "Quad Gatling Turret"
@@ -247,10 +247,53 @@ outfit "Rumskib Quad Gatling Turret"
 	description `When the war broke out the Pirates had to adapt to the new circumstances. The Quad Gatling Turret was born when a pirate, taking a page from the Gatling Turret, thought to replace the blasters on a Quad Blaster Turret with a double pair of Gatling Guns.`
 
 
-outfit "Rumskib Single Gatling Turret"
+outfit "Rumskib Triple Gatling Turret"
 	category "Secondary Weapons"
 	series "Secondary Weapons"
 	index 01151
+	cost 150000
+	thumbnail "outfit/gat turret triple"
+	"display name" "Triple Gatling Turret"
+	"mass" 14
+	"outfit space" -32
+	"weapon capacity" -32
+	"turret mounts" -1
+	"required crew" 1
+	"gatling round capacity" 9000
+	weapon
+		sound "gatling"
+		sprite "projectile/2x tinyflare"
+			"random start frame"
+		"hardpoint sprite" "hardpoint/gat turret triple"
+		"submunition" "gbullet"
+			"offset" 1.5 -6
+			"facing" 0.3
+		"submunition" "gbullet"
+			"offset" -1.5 -6
+			"facing" -0.3
+		"submunition" "gbullet"
+			"offset" 0 -6
+			"facing" 0
+		ammo "Gatling Gun Ammo" 3
+		icon "icon/gat turret"
+		"inaccuracy" 3
+		"turret turn" 3.1
+		"velocity" 16
+		"lifetime" 1
+		"reload" 3
+		"burst count" 180
+		"burst reload" 1
+		"firing energy" .09
+		"firing heat" 7.5
+		"cluster"
+		"hit effect" "bullet impact"
+	description `The standard version of the Gatling Turret in the Core. The Triple Gat Turret is an unnerving threat for any honest merchant, with more barrels then the default version.`
+
+
+outfit "Rumskib Single Gatling Turret"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01149
 	cost 90000
 	thumbnail "outfit/gat turret single"
 	"display name" "Single Gatling Turret"
