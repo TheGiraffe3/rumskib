@@ -29,11 +29,18 @@ License: CC-BY-SA-4.0
 Comment: Derived from works by Maximilian Korber and Gefüllte Taubenbrust (under the same license).
 
 Files:
- images/hardpoint/gat single turret*
- images/outfit/gat single turret*
- images/outfit/gat quad turret*
- images/outfit/quad?laser*
- images/outfit/quad?plasma?turret*
+ images/hardpoint/gat?turret?triple*
+ images/outfit/gat?turret?triple*
+Copyright: Loyse (https://github.com/loiseeer)
+License: CC-BY-SA-4.0
+
+Files:
+ images/hardpoint/gat?turret?single*
+ images/outfit/gat?turret?quad*
+ images/outfit/gat?turret?single*
+ images/outfit/laser?quad*
+ images/outfit/laser?turret?quad*
+ images/outfit/plasma?turret?quad*
  images/ship/buttle*
  images/ship/cleaver*
  images/ship/dragonfly*
@@ -46,10 +53,3 @@ Files:
  images/thumbnail/rumskibdestroyer*
 Copyright: Kitteh
 License: CC-BY-SA-4.0
-
-Files:
- images/hardpoint/gat?turret?triple*
- images/outfit/gat?turret?triple*
-Copyright: Loyse (https://github.com/loiseeer)
-License: CC-BY-SA-4.0
-
