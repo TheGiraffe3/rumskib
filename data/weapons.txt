@@ -116,7 +116,7 @@ outfit "Quad Beam Laser"
 	series "Guns"
 	index 01051
 	cost 29000
-	thumbnail "outfit/quad laser"
+	thumbnail "outfit/laser quad"
 	"mass" 30
 	"outfit space" -30
 	"weapon capacity" -30
@@ -142,7 +142,7 @@ outfit "Quad Laser Turret"
 	series "Turrets"
 	index 01041
 	cost 309000
-	thumbnail "outfit/quad laser turret"
+	thumbnail "outfit/laser turret quad"
 	"mass" 45
 	"outfit space" -45
 	"weapon capacity" -45
@@ -173,7 +173,7 @@ outfit "Quad Plasma Turret"
 	series "Turrets"
 	index 01091
 	cost 980000
-	thumbnail "outfit/quad plasma turret"
+	thumbnail "outfit/plasma turret quad"
 	"mass" 122
 	"outfit space" -122
 	"weapon capacity" -122
