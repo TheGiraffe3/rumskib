@@ -197,7 +197,8 @@ outfit "Quad Plasma Turret"
 		"shield damage" 63
 		"hull damage" 25
 		"heat damage" 340
-	description "	The Quad Plasma Turret is even more powerful than the standard Plasma Turret, but its size makes it rather impractical - it costs a pile of money and would occupy almost all of a medium warship's weapon space. As such, no sane independent captain will use it. So, how about one?"
+	description "The Quad Plasma Turret is even more powerful than the standard Plasma Turret, but its size makes it rather impractical - it costs more than a flight of fighters and would occupy almost all of a medium warship's weapon space. As such, no sane independent captain will use it."
+	description "	So, how about one?"
 
 
 outfit "Rumskib Quad Gatling Turret"
