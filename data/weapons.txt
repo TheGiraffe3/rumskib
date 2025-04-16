@@ -172,11 +172,11 @@ outfit "Quad Plasma Turret"
 	category "Turrets"
 	series "Turrets"
 	index 01091
-	cost 980000
+	cost 1196000
 	thumbnail "outfit/plasma turret quad"
-	"mass" 122
-	"outfit space" -122
-	"weapon capacity" -122
+	"mass" 111
+	"outfit space" -111
+	"weapon capacity" -111
 	"turret mounts" -1
 	"required crew" 1
 	weapon
@@ -186,19 +186,19 @@ outfit "Quad Plasma Turret"
 		"hardpoint offset" 15.
 		sound "plasma"
 		"hit effect" "plasma explosion"
-		"inaccuracy" 2.4
-		"turret turn" 1.07
-		"velocity" 14
-		"lifetime" 39
+		"inaccuracy" 2
+		"turret turn" 1.1
+		"velocity" 12
+		"lifetime" 40
 		"reload" 4.5
-		"firing energy" 30.4
-		"firing heat" 192
+		"firing energy" 30
+		"firing heat" 180
 		"hit force" 45
 		"shield damage" 63
 		"hull damage" 25
-		"heat damage" 345
-	description "The Plasma Turret is a pair of Plasma Cannons mounted on a turret so that they can fire in any direction. It is a fearsome weapon, but only the largest of ships have the space and the energy that it requires."
-	description "	The Quad Plasma Turret is even more powerful then the Plasma Turret, but its size makes it entirely impractical - it costs more than a fleet of small ships and would occupy the entirety of a ship's weapon space. As such, no independent captain will use it."
+		"heat damage" 340
+	description "The Quad Plasma Turret is even more powerful than the standard Plasma Turret, but its size makes it rather impractical - it costs more than a flight of fighters and would occupy almost all of a medium warship's weapon space. As such, no sane independent captain will use it."
+	description "	So, how about one?"
 
 
 outfit "Rumskib Quad Gatling Turret"
