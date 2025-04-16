@@ -174,9 +174,9 @@ outfit "Quad Plasma Turret"
 	index 01091
 	cost 1196000
 	thumbnail "outfit/plasma turret quad"
-	"mass" 110
-	"outfit space" -110
-	"weapon capacity" -110
+	"mass" 111
+	"outfit space" -111
+	"weapon capacity" -111
 	"turret mounts" -1
 	"required crew" 1
 	weapon
