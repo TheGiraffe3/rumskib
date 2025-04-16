@@ -54,3 +54,18 @@ mission "Rumskib: Add Quad Gat Turret"
 			`When you walk into the outfitter, you notice the proprietor proudly polishing the quadruple barrels of a new Gatling Turret. "Ho, Captain!" he calls. "Come buy the new Quad Gatling Turret! Only one hundred and eighty thousand credits, for enough firepower to destroy any hostile ship!"`
 			`	The pirates must have joined the arms race when the rebellion started.`
 				decline
+
+
+
+mission "Rumskib: Add Swan to sales"
+	landing
+	invisible
+	to offer
+		has "license: Remant Capital"
+	on offer
+		event "rumskib: remnant: add swan to sales" 10
+		fail
+
+event "rumskib: add swan to sales"
+	shipyard "Remnant"
+		add "Swan (Rumskib)"
