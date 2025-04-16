@@ -30,59 +30,14 @@ outfitter "South Pirate Advanced"
 outfitter "Rumskib Core Pirate Advanced"
 	"Rumskib Triple Gatling Turret"
 
-planet "Buccaneer Bay"
-	add outfitter "Rumskib Core Pirate Advanced"
-planet "New Tortuga"
-	add outfitter "Rumskib Core Pirate Advanced"
-planet "Smuggler's Den"
-	add outfitter "Rumskib Core Pirate Advanced"
-
-mission "Rumskib: Add Quad Gat Turret"
-	outfitter
-	invisible
-	source
-		attributes "pirate"
-	to offer
-		has "event: war begins"
-	on offer
-		event "rumskib: add quad gat turret" 0
-		conversation
-			scene "outfit/gat turret quad"
-			`When you walk into the outfitter, you notice the proprietor proudly polishing the quadruple barrels of a new Gatling Turret. "Ho, Captain!" he calls. "Come buy the new Quad Gatling Turret! Only one hundred and eighty thousand credits, for enough firepower to destroy any hostile ship!"`
-			`	The pirates must have joined the arms race when the rebellion started.`
-				decline
-
 event "rumskib: add quad gat turret"
 	outfitter "South Pirate Advanced"
 		add "Rumskib Quad Gatling Turret"
 	outfitter "Rumskib Core Pirate Advanced"
 		add "Rumskib Quad Gatling Turret"
 
-mission "Rumskib: Add Quad Plasma Turret"
-	outfitter
-	landing
-	invisible
-	source
-		government "Free Worlds"
-	to offer
-		or
-			has "event: plasma turret available"
-	on offer
-		event "rumskib: add quad plasma turret" 15
-		conversation
-			scene "outfit/plasma turret quad"
-			`Barmy always thinks big, so he considered that captains surely want also an even bigger Plasma Turret version. It probably won't be the best business decision of Kraz Cybernetics, but well, what does one do to keep one's lead engineer happy.`
-				decline
-
-event "rumskib: add quad plasma turret"
-	outfitter "Kraz Advanced"
-		add 	"Quad Plasma Turret"
-
 shipyard "Cleaver"
 	"Cleaver"
-
-planet "Maelstrom"
-	add shipyard "Cleaver"
 
 shipyard "Lionheart Advanced"
 	add "Buttle (Northern)"
@@ -100,3 +55,15 @@ shipyard "Syndicate Advanced"
 shipyard "Tarazed Basics"
 	add "Buttle"
 	add "Tanager"
+
+planet "Buccaneer Bay"
+	add outfitter "Rumskib Core Pirate Advanced"
+
+planet "Maelstrom"
+	add shipyard "Cleaver"
+
+planet "New Tortuga"
+	add outfitter "Rumskib Core Pirate Advanced"
+
+planet "Smuggler's Den"
+	add outfitter "Rumskib Core Pirate Advanced"
