@@ -233,8 +233,258 @@ person "Richard Lenden"
 	ship "Firebird (Hai Shields)" "Dangerous Squirrel"
 
 
+person "Joey Kafflis"
+	government "Pirate"
+	frequency 100
+	personality
+		getaway
+		harvests
+		timid
+	system
+		government "Pirate"
+	phrase
+		phrase
+			"friendly pirate"
+	ship "Scrapper (Mod Blaster)" "Pea-Shooter"
+
+
+person "Henry Dragon"
+	government "Syndicate"
+	frequency 100
+	personality
+		heroic
+		vindictive
+	system
+		government "Syndicate"
+	phrase
+		phrase
+			"friendly syndicate"
+	ship "Vanguard (Particle)" "A Good Aim"
+
+
+person "Muhammad Sniki"
+	government "Merchant"
+	frequency 100
+	personality
+		getaway
+		harvests
+		mining
+	system
+		government "Free Worlds" "Republic" "Syndicate"
+	phrase
+		phrase
+			"friendly civilian"
+	ship "Behemoth (Miner)" "Artwork Creator"
+
+
+person "Mani"
+	government "Pirate (Friendly)"
+	frequency 100
+	personality
+		getaway
+		heroic
+	system
+		attributes "ccor"
+	phrase
+		phrase
+			"friendly pirate"
+	ship "Saber (CCOR Gatling)" "Monitor"
+	ship "Saber (CCOR Javelin)" "Merrimack"
+	ship "Enforcer (CCOR)" "Hampton Roads"
+
+
+person "Anna Dagon"
+	government "Merchant"
+	frequency 100
+	personality
+		vindictive
+	system
+		government "Syndicate"
+	phrase
+		phrase
+			"friendly syndicate"
+	ship "Hawk (Speedy)" "Station Lover"
+
+
+person "Hannah Drichi"
+	government "Merchant"
+	frequency 100
+	personality
+		harvests
+		mining
+		timid
+	system
+		government "Free Worlds" "Republic" "Syndicate"
+	phrase
+		phrase
+			"friendly civilian"
+	ship "Cleaver (Defense)" "Mining Drone"
+	ship "Barb (Miner)" "Cleaver"
+	ship "Dagger (Miner)" "Barb"
+	ship "Combat Drone" "Dagger"
+	ship "Mining Drone" "Combat Drone"
+
+
+person "Sookoot"
+	government "Hai"
+	frequency 100
+	personality
+		heroic
+	system
+		government "Hai"
+	phrase
+		phrase
+			"friendly hai"
+	ship "Shield Beetle (Six Ion)" "Yeer e Loh"
+
+
+person "Iyik'sek"
+	government "Wanderer"
+	frequency 100
+	personality
+		heroic
+	system
+		government "Wanderer"
+	phrase
+		phrase
+			"friendly wanderer"
+	ship "Summer Leaf" "Kri'ai"
+
+
+person "Sach'rai"
+	government "Wanderer"
+	frequency 100
+	personality
+		heroic
+	system
+		government "Wanderer"
+	phrase
+		phrase
+			"friendly wanderer"
+	ship "Deep River 2" "Sa'cha"
+
+
+person "Aara"
+	government "House Aqrabe"
+	frequency 100
+	personality
+		heroic
+	system
+		government "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sieora" "New Houses" "Old Houses" "Successor"
+	phrase
+		phrase
+			"successor friendly hail"
+	ship "Aaulqra" "Boud-o-iora"
+
+
+person "Jaara-ket"
+	government "House Sieora"
+	frequency 100
+	personality
+		heroic
+	system
+		government "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sieora" "New Houses" "Old Houses" "Successor"
+	phrase
+		phrase
+			"successor friendly hail"
+	ship "Kvelqde-Khora" "Sjolda-i-osaqa"
+
+
+person "Sejrn-ag-kaati"
+	government "House Kaatrij"
+	frequency 100
+	personality
+		heroic
+	system
+		government "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sieora" "New Houses" "Old Houses" "Successor"
+	phrase
+		phrase
+			"successor friendly hail"
+	ship "Ojde" "Avasaa-paag-iil"
+
+
+person "Glugalug"
+	government "Coalition"
+	frequency 100
+	personality
+		timid
+	system
+		government "Coalition" "Heliarch"
+	phrase
+		phrase
+			"friendly coalition"
+	ship "Arach Hulk" "Flopglug"
+
+
+person "Lorumarum Repeo"
+	government "Coalition"
+	frequency 100
+	personality
+		timid
+	system
+		government "Coalition" "Heliarch"
+	phrase
+		phrase
+			"friendly coalition"
+	ship "Saryd Traveler" "Iloratum Exoras"
+
+
+person "Pipri Reery"
+	government "Coalition"
+	frequency 100
+	personality
+		timid
+	system
+		government "Coalition" "Heliarch"
+	phrase
+		phrase
+			"friendly coalition"
+	ship "Kimek Spire" "Icha Pichee Chichi"
+
+
+person "Zealous Ally"
+	government "Heliarch"
+	frequency 200
+	personality
+		heroic
+		opportunistic
+	system
+		government "Coalition" "Heliarch"
+	phrase
+		phrase
+			"friendly heliarch"
+	ship "Heliarch Punisher (Ions)" "Stoic Shield"
+
+
+person "Shinu Angoma"
+	government "Bunrodea"
+	frequency 200
+	personality
+		heroic
+	system
+		government "Bunrodea" "Bunrodea (Guard)"
+	ship "Sasumata (Angoma)" "Sopili Eru"
+	ship "Kaiken" "Okili"
+	ship "Kaiken" "Oleka"
+	ship "Kaiken" "Disuzi"
+	ship "Kaiken" "Oktalo"
+
+
+person "Teeyolur"
+	government "Merchant"
+	frequency 50
+	personality
+		heroic
+	system
+		government "Pirate"
+	phrase
+		phrase
+			"friendly civilian"
+	ship "Shield Beetle (Pulse)" "Grim Reaper"
+
+
 person "Inconspicuous Fleet"
-	government "Smuggler"
+	government "Smuggler (Hai Trafficker)"
 	frequency 50
 	personality
 		secretive
@@ -252,45 +502,27 @@ person "Inconspicuous Fleet"
 	ship "Corvette (Hai Trafficker)" "Immediate Realization"
 
 
+person "Tanga"
+	government "Syndicate (Hostile)"
+	frequency 5
+	personality
+		heroic
+		vindictive
+	system
+		government "Free Worlds" "Republic" "Syndicate"
+	phrase
+		phrase
+			"hostile syndicate"
+	ship "Manta (Nuclear)" "Death To All"
+
+
 ### INDIGENOUS LIFEFORMS ###
 
-person "Subsidurial 2"
+person "Subsidurial"
 	government "Indigenous Lifeform (Subsidurial)"
 	frequency 300
 	personality
 		timid unconstrained coward appeasing uninterested mining harvests mute
-	ship "Subsidurial" "Subsidurial"
-		"never disabled"
-	ship "Subsidurial" "Subsidurial"
-		"never disabled"
-	system
-		government "Uninhabited"
-
-
-person "Subsidurial 3"
-	government "Indigenous Lifeform (Subsidurial)"
-	frequency 200
-	personality
-		timid unconstrained coward appeasing uninterested mining harvests mute
-	ship "Subsidurial" "Subsidurial"
-		"never disabled"
-	ship "Subsidurial" "Subsidurial"
-		"never disabled"
-	ship "Subsidurial" "Subsidurial"
-		"never disabled"
-	system
-		government "Uninhabited"
-
-
-person "Subsidurial 4"
-	government "Indigenous Lifeform (Subsidurial)"
-	frequency 100
-	personality
-		timid unconstrained coward appeasing uninterested mining harvests mute
-	ship "Subsidurial" "Subsidurial"
-		"never disabled"
-	ship "Subsidurial" "Subsidurial"
-		"never disabled"
 	ship "Subsidurial" "Subsidurial"
 		"never disabled"
 	ship "Subsidurial" "Subsidurial"
@@ -305,20 +537,6 @@ person "Astral Cetacean"
 	personality
 		mute
 		unconstrained
-	ship "Astral Cetacean" "Astral Cetacean"
-		"never disabled"
-	system
-		government "Uninhabited"
-
-
-person "Astral Cetacean 2"
-	government "Indigenous Lifeform (Astral)"
-	frequency 100
-	personality
-		mute
-		unconstrained
-	ship "Astral Cetacean" "Astral Cetacean"
-		"never disabled"
 	ship "Astral Cetacean" "Astral Cetacean"
 		"never disabled"
 	system

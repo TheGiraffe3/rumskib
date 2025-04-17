@@ -305,6 +305,25 @@ ship "Saber" "Saber (Gatling-Built)"
 	turret "Gatling Turret"
 
 
+ship "Sasumata" "Sasumata (Angoma)"
+	outfits
+		"Mandible Cannon"
+		"Locust Blaster"
+		"Buzzer Anti-Missile" 2
+		
+		"Quark Reactor"
+		"Reactor Overclocker" 2
+		"Solar Battery" 2
+		"Solar Cell" 30
+		"Large Shield Relay"
+		"Shield Relay Limiter" 10
+		
+		"Subarashii Rift Thruster"
+		"Ookii Rift Steering"
+		"Hyperdrive"
+
+
+
 
 ### INDIGENOUS LIFEFORMS ###
 

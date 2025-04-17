@@ -66,6 +66,6 @@ mission "Rumskib: Add Swan to sales"
 		event "rumskib: remnant: add swan to sales" 10
 		fail
 
-event "rumskib: add swan to sales"
+event "rumskib: remnant: add swan to sales"
 	shipyard "Remnant"
 		add "Swan (Rumskib)"
