@@ -2,3 +2,9 @@
 system "Illo Nam"
 			"Vai bin so."
 		not "Mata Hari start"
+ship "Za'lek Sting"
+	sprite "ship/za'lek sting"
+	description "The Za'lek Sting is a ship from the game Naev. Unfortunately, the 3D animation can't be ported to Endless Sky."
+	ship "Za'lek Sting" "Za'lek Sting"
+ images/ship/za'lek?sting*
+	"Za'lek Sting"

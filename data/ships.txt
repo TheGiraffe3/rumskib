@@ -669,7 +669,7 @@ ship "Squall"
 
 
 
-#### REMNANT
+#### REMNANT ####
 
 # Taken from Endless Sky Delta, courtesy of Zitchas.
 ship "Swan (Rumskib)"
@@ -790,3 +790,53 @@ ship "Swan (Rumskib)"
 	description "Historically, the Remnant have not needed to support remote fleet operations. It had, however, been anticipated as a part of their contingency plans to support large scale evacuations. The first Remnant survived by running, modern Remnant prosper through mobility, and it is expected that the Remnant of the future shall thrive by those same means."
 	description "	The Swan, thus, was designed first and foremost to be a refueler. Not only carrying a prodigous amount of fuel as well as massive arrays to collect more, but also ferrying a number of fighters and drones that can be used to deliver fuel to other ships in the fleet. It can also carry a significant amount of cargo."
 	description "	The cloaking technology is built into the Swan's hull; it cannot be removed or transferred to another ship. The Remnant engineers note that, due to its size, the Swan's cloak is both slower and consumes significantly more energy and fuel than other present-day designs."
+
+
+
+#### AUTHORS ####
+
+# Taken from Naev for bobbens' person ship.
+
+ship "Za'lek Sting"
+	sprite "ship/za'lek sting"
+	attributes
+		category "Medium Warship"
+		cost 2100000
+		"shields" 38000
+		"hull" 25000
+		"required crew" 12
+		"bunks" 19
+		"mass" 150
+		"drag" 3.6
+		"heat dissipation" 0.54
+		"fuel capacity" 1000
+		"outfit space" 75
+		"weapon capacity" 75
+		"cargo space" 25
+		"thrust" 500
+		"turn" 3000
+		"flare sprite" "effect/atomic flare/large"
+		"flare sound" "atomic large"
+		"energy generation" 50
+		"cooling" 90
+		"shield generation" 50
+		"hull repair" 24
+		"radar jamming" 10
+		"optical jamming" 10
+		weapon
+			"blast radius" 250
+			"shield damage" 4000
+			"hull damage" 1000
+			"hit force" 5000
+	outfits
+		"Heavy Laser" 3
+		"Heavy Anti-Missile Turret"
+	gun -32 -103 "Heavy Laser"
+	gun -42 -143.5 "Heavy Laser"
+	gun -84.5 -94.5 "Heavy Laser"
+	turret 3.5 -0.5 "Heavy Anti-Missile Turret"
+	bay "Fighter" 7 70.5
+	bay "Fighter" -54.5 55
+	bay "Fighter" 7 70.5
+	engine -39 151
+	description "The Za'lek Sting is a ship from the game Naev. Unfortunately, the 3D animation can't be ported to Endless Sky."

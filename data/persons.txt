@@ -370,7 +370,7 @@ person "Aara"
 	personality
 		heroic
 	system
-		government "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sieora" "New Houses" "Old Houses" "Successor"
+		government "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sioeora" "New Houses" "Old Houses" "Successor"
 	phrase
 		phrase
 			"successor friendly hail"
@@ -378,12 +378,12 @@ person "Aara"
 
 
 person "Jaara-ket"
-	government "House Sieora"
+	government "House Sioeora"
 	frequency 100
 	personality
 		heroic
 	system
-		government "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sieora" "New Houses" "Old Houses" "Successor"
+		government "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sioeora" "New Houses" "Old Houses" "Successor"
 	phrase
 		phrase
 			"successor friendly hail"
@@ -396,7 +396,7 @@ person "Sejrn-ag-kaati"
 	personality
 		heroic
 	system
-		government "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sieora" "New Houses" "Old Houses" "Successor"
+		government "House Aqrabe" "House Chydiyi" "House Kaatrij" "House Myurej" "House Seineq" "House Sioeora" "New Houses" "Old Houses" "Successor"
 	phrase
 		phrase
 			"successor friendly hail"
