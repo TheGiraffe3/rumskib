@@ -131,8 +131,8 @@ outfit "Quad Beam Laser"
 		"reload" 1
 		"firing energy" 2.95
 		"firing heat" 5.75
-		"shield damage" 4
-		"hull damage" 5.2
+		"shield damage" 4.05
+		"hull damage" 5.15
 	description "In the early part of the space era, the settlements in the region of space known as the Deep developed in relative isolation from the rest of human space. One result of that isolation is that their weapons technology mostly uses beam weapons, instead of the energy projectile weapons that are more common elsewhere."
 	description "	The Quadruple Beam Laser is a modified version of the regular Beam Laser. The designers took the opportunity to make it slightly more precise and decreased the heat per second for each individual laser, but as four packed together it is still much hotter than a normal laser."
 
@@ -161,8 +161,8 @@ outfit "Quad Laser Turret"
 		"reload" 1
 		"firing energy" 2.67
 		"firing heat" 6.4
-		"shield damage" 4
-		"hull damage" 5.2
+		"shield damage" 4.05
+		"hull damage" 5.15
 	description "Unlike the Laser Turret, the quadified version does not turn fast enough to hold off fighter pilots. However, the doubled damage output more than makes up for this slight disadvantage."
 	description "	Although it would make more sense to mount a Quad Beam Laser on a turret, Deep Sky instead decided to double the lasers held by the normal laser turret as a cheaper way to increase the damage output."
 
