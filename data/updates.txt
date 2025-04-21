@@ -17,21 +17,55 @@ mission "Rumskib: start Quad Plasma Turret timer"
 		event "rumskib: quad plasma turret available" 360 560
 		fail
 
+mission "Rumskib: start Single Plasma Turret timer"
+	landing
+	invisible
+	to offer
+		has "event: plasma turret available"
+	on offer
+		event "rumskib: single plasma turret available" 60 180
+		fail
+
 event "rumskib: quad plasma turret available"
 	outfitter "Kraz Advanced"
 		"Quad Plasma Turret"
 
+event "rumskib: single plasma turret available"
+	outfitter "Kraz Advanced"
+		"Single Plasma Turret"
+
 mission "Rumskib: Quad Plasma Turret available"
 	landing
+	invisible
 	source
 		near "Kraz" 100
 	to offer
-		has "event: quad plasma turret available"
+		has "event: rumskib: quad plasma turret available"
 	on offer
 		conversation
 			`When you land, a message pops up on your communicator from Barmy Edward. A photograph is enclosed as well. The message reads:`
-			scene "outfit/quad plasma turret"
+			scene "outfit/plasma turret quad"
 			`	Well, Captain. Our team recently perfected an improved design with four Plasma Cannons instead of just two, mounted on a turret. Due to its size nobody has bought one yet, but I look forward to seeing whether you'll do so!`
+			`				Sincerely,`
+			`						B. Edward Tivrusky`
+			`						Chief Offensive Engineer`
+			`						Kraz Cybernetics`
+				decline
+
+
+
+mission "Rumskib: Single Plasma Turret available"
+	landing
+	invisible
+	source
+		near "Kraz" 100
+	to offer
+		has "event: rumskib: single plasma turret available"
+	on offer
+		conversation
+			`When you land, a message pops up on your communicator from Barmy Edward. A photograph is enclosed as well. The message reads:`
+			scene "outfit/plasma turret single"
+			`	Well, Captain. I have now perfected a redesign of the Plasma Turret with one Plasma Cannon. Due to its decreased usefulness nobody has bought one yet, but I look forward to seeing whether you'll do so!`
 			`				Sincerely,`
 			`						B. Edward Tivrusky`
 			`						Chief Offensive Engineer`
