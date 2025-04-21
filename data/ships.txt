@@ -247,7 +247,7 @@ ship "Marauder Boxwing"
 		"drag" .84
 		"heat dissipation" .38
 		"outfit space" 76
-		"weapon capacity" 36
+		"weapon capacity" 31
 		"engine capacity" 28
 		"cargo space" 8
 		weapon
@@ -381,7 +381,7 @@ ship "Rumskib Destroyer"
 		"heat dissipation" .29
 		"fuel capacity" 700
 		"outfit space" 692
-		"cargo space" 50
+		"cargo space" 30
 		"weapon capacity" 280
 		"engine capacity" 230
 		weapon
@@ -399,7 +399,7 @@ ship "Rumskib Destroyer"
 		"Cargo Scanner"
 		"D67-TM Shield Generator"
 		"Outfit Scanner"
-		"Outfits Expansion" 2
+		"Outfits Expansion"
 		"Tactical Scanner"
 		"Water Coolant System"
 
