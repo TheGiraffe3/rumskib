@@ -114,7 +114,7 @@ outfit "Quad Beam Laser"
 	category "Guns"
 	series "Guns"
 	index 01051
-	cost 29000
+	cost 200000
 	thumbnail "outfit/laser quad"
 	"mass" 30
 	"outfit space" -30
@@ -125,26 +125,26 @@ outfit "Quad Beam Laser"
 			"frame rate" 1
 		sound "laser"
 		"hit effect" "beam laser impact"
-		"inaccuracy" .2
+		"inaccuracy" .7
 		"velocity" 300
 		"lifetime" 1
 		"reload" 1
-		"firing energy" 3.12
-		"firing heat" 4.5
-		"shield damage" 3.9
-		"hull damage" 5
+		"firing energy" 3.1
+		"firing heat" 8.7
+		"shield damage" 4.05
+		"hull damage" 5.15
 	description "In the early part of the space era, the settlements in the region of space known as the Deep developed in relative isolation from the rest of human space. One result of that isolation is that their weapons technology mostly uses beam weapons, instead of the energy projectile weapons that are more common elsewhere."
-	description "	The Quadruple Beam Laser is a modified version of the regular Beam Laser. The designers took the opportunity to make it slightly more precise and decreased the heat per second for each individual laser, but as four packed together it is still much hotter than a normal laser."
+	description "	The Quadruple Beam Laser is a modified version of the regular Beam Laser. The designers crammed together four beams for better space usage, but at the cost of less accuracy, more heat and less energy efficiency."
 
 outfit "Quad Laser Turret"
 	category "Turrets"
 	series "Turrets"
 	index 01041
-	cost 309000
+	cost 322000
 	thumbnail "outfit/laser turret quad"
-	"mass" 45
-	"outfit space" -45
-	"weapon capacity" -45
+	"mass" 38
+	"outfit space" -38
+	"weapon capacity" -38
 	"turret mounts" -1
 	"required crew" 1
 	weapon
@@ -154,16 +154,16 @@ outfit "Quad Laser Turret"
 		"hardpoint offset" -0.5 8.
 		sound "laser"
 		"hit effect" "beam laser impact"
-		"inaccuracy" .34
-		"turret turn" 2.14
+		"inaccuracy" .5
+		"turret turn" 2.75
 		"velocity" 300
 		"lifetime" 1
 		"reload" 1
-		"firing energy" 2.622
-		"firing heat" 5.968
-		"shield damage" 3.98
-		"hull damage" 5.35
-	description "Unlike the Laser Turret, the quadified version does not turn fast enough to hold off fighter pilots. However, the nearly doubled damage output more than makes up for this slight disadvantage."
+		"firing energy" 2.67
+		"firing heat" 6.4
+		"shield damage" 4.05
+		"hull damage" 5.15
+	description "Unlike the Laser Turret, the quadified version does not turn fast enough to hold off fighter pilots. However, the doubled damage output more than makes up for this slight disadvantage."
 	description "	Although it would make more sense to mount a Quad Beam Laser on a turret, Deep Sky instead decided to double the lasers held by the normal laser turret as a cheaper way to increase the damage output."
 
 outfit "Single Plasma Turret"
@@ -216,7 +216,7 @@ outfit "Quad Plasma Turret"
 		sound "plasma"
 		"hit effect" "plasma explosion"
 		"inaccuracy" 2
-		"turret turn" 1.05
+		"turret turn" 1.1
 		"velocity" 12
 		"lifetime" 40
 		"reload" 4.5

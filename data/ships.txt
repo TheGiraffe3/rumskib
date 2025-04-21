@@ -247,7 +247,7 @@ ship "Marauder Boxwing"
 		"drag" .84
 		"heat dissipation" .38
 		"outfit space" 76
-		"weapon capacity" 30
+		"weapon capacity" 31
 		"engine capacity" 28
 		"cargo space" 8
 		weapon
@@ -398,7 +398,6 @@ ship "Rumskib Destroyer"
 		"Brig"
 		"Cargo Scanner"
 		"D67-TM Shield Generator"
-		"Hyperdrive"
 		"Outfit Scanner"
 		"Outfits Expansion"
 		"Tactical Scanner"
@@ -414,6 +413,7 @@ ship "Rumskib Destroyer"
 		"A865 Atomic Steering"
 		"A860 Atomic Thruster"
 		"Volcano Afterburner"
+		"Hyperdrive"
 
 	engine -41.5 111.5
 	engine 41.5 111.5
