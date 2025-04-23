@@ -233,3 +233,30 @@ government "bobbens"
 		"Zoura" .01
 	"bribe" 0
 	"fine" 0
+
+
+person "Bloom"
+	government "Merchant"
+	frequency 300
+	personality
+		heroic
+		secretive
+	system
+		attributes "ember waste"
+	phrase
+		word
+			"Yo... what you looking at?"
+			"yo... what you looking at?"
+			"Oh that true yeah."
+			"Congratulations, you get it."
+			"Ignore this ship."
+			"When code fight back..."
+			"I wish I can help."
+			"What a Unicode?"
+			"What Quarg engine do?"
+			"HaI would find this interesting."
+			"A lot yeah."
+			"On lore case, are Alphas immune to radiation and old age?"
+			"I not know lot about lore."
+			"I mean if we old by then I wonder how old Admiral Danforth is now."
+	ship "Telis'het (Human Tech)" "Casual Observer"

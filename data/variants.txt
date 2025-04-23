@@ -321,7 +321,35 @@ ship "Sasumata" "Sasumata (Angoma)"
 		"Subarashii Rift Thruster"
 		"Ookii Rift Steering"
 		"Hyperdrive"
+	gun "Mandible Cannon"
+	gun "Locust Blaster"
+	turret "Buzzer Anti-Missile"
+	turret "Buzzer Anti-Missile"
 
+
+ship "Telis'het" "Telis'het (Human Tech)"
+	outfits
+		"Gatling Gun" 4
+		"Javelin Turret" 3
+
+		"Ka'het Shield Restorer" 10
+		"Ka'het Primary Cooling"
+		"Ka'het Support Cooling"
+		"Ka'het MHD Generator" 2
+		"Ka'het Reserve Accumulator" 6
+
+		"Telis Engine Nacelles"
+		"Ka'het Sustainer Nacelles"
+		"Jump Drive"
+	gun "Gatling Gun"
+	gun "Gatling Gun"
+	gun "Gatling Gun"
+	gun "Gatling Gun"
+	turret
+	turret
+	turret "Javelin Turret"
+	turret "Javelin Turret"
+	turret "Javelin Turret"
 
 
 
