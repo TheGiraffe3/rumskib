@@ -14,7 +14,7 @@ system Alioth
 		distance 2197.72
 		period 1942.72
 	add object "New Gettysburg"
-		sprite planet/dust4
+		sprite planet/ocean2-b
 		distance 2197.72
 		period 1942.72
 
