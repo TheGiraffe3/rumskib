@@ -8,6 +8,34 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
+system Alioth
+	remove object
+		sprite planet/dust4
+		distance 2197.72
+		period 1942.72
+	add object "New Gettysburg"
+		sprite planet/dust4
+		distance 2197.72
+		period 1942.72
+
+system Alnilam
+	remove object
+		sprite planet/gas7-b
+		distance 966.7
+		period 290.312
+	add object "Ealam"
+		sprite planet/gas7-b
+		distance 966.7
+		period 290.312
+		object
+			sprite planet/miranda-b
+			distance 220
+			period 10.5884
+		object
+			sprite planet/luna
+			distance 305
+			period 17.2841
+
 system "Arculus"
 	add fleet "Remnant Capital" 10000
 
@@ -41,3 +69,17 @@ system "Illo Nam"
 
 system "Pantica"
 	add fleet "Remnant Capital" 10000
+
+system Zubenelgenubi
+	remove object
+		sprite planet/cloud0
+		distance 1318.13
+		period 606.856
+	add object Donya
+		sprite planet/cloud0
+		distance 1318.13
+		period 606.856
+		object
+			sprite planet/rock14
+			distance 165
+			period 24.185
