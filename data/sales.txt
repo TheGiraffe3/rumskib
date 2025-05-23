@@ -27,13 +27,13 @@ outfitter "Remnant"
 outfitter "South Pirate Advanced"
 	"Rumskib Single Gatling Turret"
 
-outfitter "Rumskib Core Pirate Advanced"
+outfitter "Rumskib Pirate Advanced"
 	"Rumskib Triple Gatling Turret"
 
 event "rumskib: add quad gat turret"
 	outfitter "South Pirate Advanced"
 		add "Rumskib Quad Gatling Turret"
-	outfitter "Rumskib Core Pirate Advanced"
+	outfitter "Rumskib Pirate Advanced"
 		add "Rumskib Quad Gatling Turret"
 
 shipyard "Cleaver"
@@ -59,17 +59,17 @@ shipyard "Tarazed Basics"
 planet "Ada"
 	add shipyard "Cleaver"
 
-planet "Alheka"
-	add shipyard "Cleaver"
-
 planet "Buccaneer Bay"
-	add outfitter "Rumskib Core Pirate Advanced"
+	add outfitter "Rumskib Pirate Advanced"
 
 planet "New Tortuga"
-	add outfitter "Rumskib Core Pirate Advanced"
+	add outfitter "Rumskib Pirate Advanced"
+
+planet "Shroud"
+	add shipyard "Cleaver"
 
 planet "Smuggler's Den"
-	add outfitter "Rumskib Core Pirate Advanced"
+	add outfitter "Rumskib Pirate Advanced"
 
 planet "Tinker"
 	add shipyard "Cleaver"
