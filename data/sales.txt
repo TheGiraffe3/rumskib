@@ -56,14 +56,20 @@ shipyard "Tarazed Basics"
 	add "Buttle"
 	add "Tanager"
 
+planet "Ada"
+	add shipyard "Cleaver"
+
+planet "Alheka"
+	add shipyard "Cleaver"
+
 planet "Buccaneer Bay"
 	add outfitter "Rumskib Core Pirate Advanced"
-
-planet "Maelstrom"
-	add shipyard "Cleaver"
 
 planet "New Tortuga"
 	add outfitter "Rumskib Core Pirate Advanced"
 
 planet "Smuggler's Den"
 	add outfitter "Rumskib Core Pirate Advanced"
+
+planet "Tinker"
+	add shipyard "Cleaver"
