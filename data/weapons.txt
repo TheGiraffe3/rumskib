@@ -150,7 +150,7 @@ outfit "Quad Laser Turret"
 	weapon
 		sprite "projectile/2x laser"
 			"frame rate" 1
-		"hardpoint sprite" "hardpoint/laser turret"
+		"hardpoint sprite" "hardpoint/laser turret quad"
 		"hardpoint offset" -0.5 8.
 		sound "laser"
 		"hit effect" "beam laser impact"
