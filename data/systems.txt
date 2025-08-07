@@ -68,7 +68,7 @@ system "Illo Nam"
 		period 402.642
 
 system Lolami
-	add minables silicon 19
+	add minables silicon 19 1.4591
 	remove fleet "Human Miners"
 	add fleet "Human Miners" 2400
 	remove object

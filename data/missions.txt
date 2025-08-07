@@ -39,10 +39,10 @@ mission "Rumskib: Iamal: Mineral Harvesting Initial"
 			choice
 				`	"Thank you!"`
 				`	(Remain silent.)`
-		`	"I thought you might be interested to know the best way of gathering silicon with your ship on this planet." The man tells you to not take the minerals on the surface, as those have been subjected to years of radiation; instead you should take from underneath the top level. He gives you a few other pointers on mining before ending the hail and preparing for launch.`
-		action
-			outfit "Silicon" 50
-		`	When the Brilliant Sunrise's repulsors are lost in the distance, you attempt to use the Cleaver's tools to pick up silicon. It takes practice, but you get quite good at it, eventually harvesting fifty tons.`
+			`	"I thought you might be interested to know the best way of gathering silicon with your ship on this planet." The man tells you to not take the minerals on the surface, as those have been subjected to years of radiation; instead you should take from underneath the top level. He gives you a few other pointers on mining before ending the hail and preparing for launch.`
+			action
+				outfit "Silicon" 50
+			`	When the Brilliant Sunrise's repulsors are lost in the distance, you attempt to use the Cleaver's tools to pick up silicon. It takes practice, but you get quite good at it, eventually harvesting fifty tons.`
 	npc
 		government "Merchant"
 		personality fleeing harvests mining timid waiting
