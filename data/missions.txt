@@ -10,8 +10,65 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
+mission "Rumskib: Iamal: Cleaver Notification"
+	invisible
+	landing
+	source "Iamal"
+	to offer
+		has "visited planet: Shroud"
+		not "flagship model: Cleaver"
+	on offer
+		conversation
+			`On Shroud, rumors abound of the unlimited reserves of silicon sitting on this planet. They also say that the Cleaver, produced by ALR Manufacturing and sold on Ada, has a special tool to harvest these resources. The Cleaver must have been in continuous use as flagship for at least ten days before the tools will begin operating.`
+				decline
+
+mission "Rumskib: Iamal: Mineral Harvesting Initial"
+	invisible
+	landing
+	source "Iamal"
+	to offer
+		has "visited planet: Shroud"
+		has "flagship model: Cleaver"
+	on offer
+		conversation
+			branch new-cleaver
+				has "Rumskib: Iamal: Cleaver Notification"
+			`On Shroud, rumors abound of the unlimited reserves of silicon sitting on this planet. They also say that the Cleaver, produced by ALR Manufacturing and sold on Ada, has a special tool to harvest these resources.`
+			label new-cleaver
+			`	As the <ship> touches down on Iamal, a hail comes through your intercom from another Cleaver parked nearby, called the Brilliant Sunrise. "Hello, new captain! Welcome to the Silicon Harvesting Grounds of Iamal!"`
+			choice
+				`	"Thank you!"`
+				`	(Remain silent.)`
+		`	"I thought you might be interested to know the best way of gathering silicon with your ship on this planet." The man tells you to not take the minerals on the surface, as those have been subjected to years of radiation; instead you should take from underneath the top level. He gives you a few other pointers on mining before ending the hail and preparing for launch.`
+		action
+			outfit "Silicon" 50
+		`	When the Brilliant Sunrise's repulsors are lost in the distance, you attempt to use the Cleaver's tools to pick up silicon. It takes practice, but you get quite good at it, eventually harvesting fifty tons.`
+	npc
+		government "Merchant"
+		personality fleeing harvests mining timid waiting
+		ship "Cleaver" "Brilliant Sunrise"
+		ship "Barb" "Dawn"
+		ship "Barb (Miner)" "Dusk"
+		ship "Mining Drone" "Noon"
+		ship "Mining Drone" "Midnight"
+
+mission "Rumskib: Iamal: Mineral Harvesting"
+	invisible
+	landing
+	repeat
+	source "Iamal"
+	to offer
+		has "Rumskib: Iamal: Mineral Harvesting Initial: offered"
+		has "flagship model: Cleaver"
+	on offer
+		outfit "Silicon" 100
+		dialog `You use your flagship's mineral collector to harvest silicon, ending up with 100 tons of it.`
+		fail
+
+
 mission "Rumskib: Keystone Registration"
 	invisible
+	landing
 	source
 		government "Hai"
 		not attributes "uninhabited"
