@@ -109,6 +109,8 @@ event "rumskib: remnant: add swan to sales"
 mission "Rumskib: Add Experimental Ladybug"
 	landing
 	invisible
+	to offer
+		not "event: hai ladybug available"
 	on offer
 		event "rumskib: experimental ladybug sold" 365 560
 		fail
