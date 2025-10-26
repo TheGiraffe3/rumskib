@@ -40,6 +40,12 @@ License: GPLv3
 Comment: Taken from the open-source game Naev (https://github.com/naev) for use as a person ship.
 
 Files:
+ images/ship/mining?barge*
+ images/thumbnail/mining?barge*
+Copyright: Saugia (https://github.com/Saugia)
+License: CC-BY-SA-4.0
+
+Files:
  images/hardpoint/gat?turret?single*
  images/hardpoint/laser?turret?quad*
  images/outfit/gat?turret?quad*

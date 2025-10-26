@@ -133,3 +133,57 @@ mission "Rumskib: Remove Experimental Ladybug"
 event "rumskib: experimental ladybug no longer sold"
 	shipyard "Mon Ki i'Haya Advanced"
 		remove "Ladybug (New Description)"
+
+
+mission "Rumskib: Mining Barge in Nashira"
+	invisible
+	landing
+	npc
+		on kill
+			set "dead edderkopp"
+		government "Pirate"
+		personality disables harvests mining plunders staying
+		system "Nashira"
+		ship "Mining Barge" "Edderkopp"
+	to complete
+		never
+	npc
+		government "Pirate"
+		personality disables mining
+		system "Nashira"
+		ship "Mining Drone" "Hakkespett"
+		ship "Mining Drone" "Maursluker"
+		ship "Mining Drone" "Spekkhogger"
+		ship "Mining Drone" "Flaggermus"
+
+mission "Rumskib: Pirates in Nashira"
+	invisible
+	landing
+	repeat
+	to offer
+		not "dead edderkopp"
+	npc kill
+		government "Pirate"
+		personality disables harvests mining plunders staying swarming
+		system "Nashira"
+		fleet
+			names "pirate"
+			variant
+				"Protector"
+				"Splinter"
+				"Quicksilver" 2
+				"Wasp"
+			variant
+				"Protector" 2
+				"Wasp" 2
+			variant
+				"Splinter" 3
+				"Wasp"
+			variant
+				"Quicksilver" 4
+			variant
+				"Splinter" 3
+				"Quicksilver" 2
+			variant
+				"Protector"
+				"Splinter" 2

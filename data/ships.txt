@@ -316,6 +316,85 @@ ship "Marauder Combat Drone"
 
 
 
+ship "Mining Barge"
+	sprite "ship/mining barge"
+	thumbnail "thumbnail/mining barge"
+	attributes
+		category "Utility"
+		"cost" 13400000
+		"shields" 6000
+		"hull" 11600
+		"required crew" 47
+		"bunks" 82
+		"mass" 3670
+		"drag" 35.3
+		"heat dissipation" .2
+		"fuel capacity" 400
+		"cargo space" 760
+		"outfit space" 490
+		"weapon capacity" 240
+		"engine capacity" 140
+		weapon
+			"blast radius" 176
+			"shield damage" 1760
+			"hull damage" 880
+			"hit force" 2640
+	outfits
+		"Mining Laser" 4
+		"Mining Laser Turret" 2
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret"
+
+		"nGVF-BB Fuel Cell"
+		"KP-6 Photovoltaic Array" 2
+		"KP-6 Photovoltaic Panel" 4
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+		"Large Radar Jammer"
+		"Laser Rifle" 9
+		"Fragmentation Grenades"
+
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		"X1100 Ion Reverse Thruster" 2
+
+	engine -32 204
+	engine 32 204
+	engine 0 206
+	turret -51.5 -65 "Quad Blaster Turret"
+	turret 51.5 -65 "Mining Laser Turret"
+	turret -61.5 51 "Mining Laser Turret"
+	turret 61.5 51 "Quad Blaster Turret"
+	turret 0 105.5 "Heavy Anti-Missile Turret"
+	gun -20 -182 "Mining Laser"
+	gun -20 -182 "Mining Laser"
+	gun 20 -182 "Mining Laser"
+	gun 20 -182 "Mining Laser"
+	bay "Drone" 88 66
+		"angle" 70
+		"launch effect" "human internal"
+	bay "Drone" 88 66
+		"angle" 70
+		"launch effect" "human internal"
+	bay "Drone" -88 66
+		"angle" -70
+		"launch effect" "human internal"
+	bay "Drone" -88 66
+		"angle" -70
+		"launch effect" "human internal"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 20
+	explode "medium explosion" 30
+	explode "large explosion" 40
+	explode "huge explosion" 25
+	"final explode" "final explosion large"
+	description "The Mining Barge is an ancient creation, predating the Sunder by many hundreds of years. Only one is left in existence, and since it lacks a hyperdrive, it won't be going anywhere soon."
+	description "	The pirates of the Core Mining Concern use this ship in the Nashira system to extract valuable ores from asteroids."
+
+
+
 ship "Recruiter"
 	sprite "ship/recruiter"
 	thumbnail "thumbnail/recruiter"
