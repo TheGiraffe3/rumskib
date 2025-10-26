@@ -1,6 +1,6 @@
 name: Error Check
 
-on: [push, pull_request]
+on: [push]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
@@ -23,7 +23,7 @@ jobs:
         mkdir plugins
         cd .\plugins
         mkdir rumskib
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5.0.0
       with:
         path: '.\endless-sky\plugins\rumskib'
     - name: Parse Datafiles
