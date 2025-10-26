@@ -238,7 +238,7 @@ mission "Rumskib: Sell Nuclear Missiles"
 			choice
 				`	(Fly to the base.)`
 				`	(Send a message back saying that the deal is off.)`
-					fail
+					decline
 			`	You type in the coordinates of the point you were requested to visit and map a path. Apparently getting there requires a trip of several hours, so you turn on autopilot and head out of the cabin for a nap.`
 			`	Some time later when you wake up, your ship is still on its journey, getting to a point where manual control is required. Flying through the atmosphere of New Tortuga, you pass over a typhoon, overfly a tsunami, and take a short detour around a supercell thunderstorm. After another half hour of delicate flying, you approach doors more than a hundred meters tall. As they open, you can see they are ten meters thick, made of an unfamiliar brown material. Two layers of shields shut down in anticipation of your entry, each strong enough to stop a Navy Carrier. To the left and right, there are turrets with heat signatures higher than a Breeder Reactor. Whoever built this place values their safety... and has the funds and technology to secure it.`
 			`	As you disembark, a blue-cloaked and hooded figure marches up to your ship and presents you with a contract. "Sign here, please."`
