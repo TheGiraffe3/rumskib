@@ -10,6 +10,76 @@
 
 ### Outfits ###
 
+
+outfit "Flamethrower"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 01160
+	cost 190000
+	thumbnail "outfit/flamethrower"
+	"mass" 9
+	"outfit space" -9
+	"weapon capacity" -9
+	"gun ports" -1
+	weapon
+		sprite "effect/explosion/small"
+			"frame rate" 60
+			"no repeat"
+		sound "flamethrower"
+		icon "icon/flamethrower"
+		"submunition" "Flamethrower Projectile"
+		"inaccuracy" 12
+		"velocity" 9
+		"lifetime" 5
+		"reload" 1
+		"firing energy" .15
+		"firing fuel" .42
+		"firing heat" 4.5
+
+
+outfit "Flamethrower Projectile"
+	weapon
+		sprite "projectile/flamethrower"
+			"frame rate" 17
+			"random start frame"
+		"hit effect" "flamethrower hit"
+		"die effect" "flamethrower die"
+		"inaccuracy" 20
+		"lifetime" 18
+		"random lifetime" 8
+		"damage dropoff" 0 198
+		"dropoff modifier" .5
+		"shield damage" .8
+		"hull damage" .7
+		"heat damage" 350
+		"blast radius" 10
+		"safe"
+
+effect "flamethrower die"
+	sprite "effect/explosion/small"
+		"no repeat"
+		"frame rate" 15
+		"random start frame"
+	"lifetime" 24
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 2
+	"random velocity" .4
+	"velocity scale" .4
+
+effect "flamethrower hit"
+	sprite "effect/explosion/medium"
+		"no repeat"
+		"frame rate" 15
+		"random start frame"
+	"lifetime" 28
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 3
+	"random velocity" .6
+	"velocity scale" .4
+
+
 outfit "Nuclear Missile"
 	weapon
 		sprite "projectile/missile"
