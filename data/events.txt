@@ -8,6 +8,37 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
+mission "Rumskib: Add Hailmaker"
+	landing
+	invisible
+	to offer
+		has "event: navy using mark ii ships"
+	on offer
+		event "rumskib: add hailmaker" 60 100
+		fail
+
+event "rumskib: add hailmaker"
+	fleet "Small Republic"
+		add variant 12
+			"Hailmaker"
+		add variant 10
+			"Hailmaker" 2
+		add variant 9
+			"Hailmaker"
+			"Rainmaker (Mark II)"
+	fleet "Large Republic"
+		add variant 12
+			"Hailmaker" 2
+		add variant 9
+			"Carrier"
+			"Lance" 8
+			"Combat Drone" 6
+			"Hailmaker"
+		add variant 6
+			"Hailmaker" 3
+
+
+
 mission "Rumskib: start Quad Plasma Turret timer"
 	landing
 	invisible

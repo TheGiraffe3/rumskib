@@ -90,7 +90,7 @@ ship "Splinter" "Splinter (Miner)"
 		"Mining Laser Turret" 2
 		"Tractor Beam"
 
-		"Cargo Expansion" 5
+		"Cargo Expansion" 4
 		"D67-TM Shield Generator"
 		"LP072a Battery Pack"
 		"S3 Thermionic"
@@ -98,6 +98,7 @@ ship "Splinter" "Splinter (Miner)"
 
 		"A250 Atomic Thruster"
 		"A255 Atomic Steering"
+		"Hyperdrive"
 
 
 ### PERSONS ###

@@ -234,6 +234,66 @@ ship "Dragonfly"
 
 
 
+ship "Hailmaker"
+	sprite "ship/hailmaker"
+	thumbnail "thumbnail/hailmaker"
+	attributes
+		category "Light Warship"
+		licenses
+			Navy
+		"cost" 1580000
+		"shields" 4500
+		"hull" 1800
+		"required crew" 6
+		"bunks" 11
+		"mass" 320
+		"drag" 5.1
+		"heat dissipation" .43
+		"fuel capacity" 600
+		"cargo space" 30
+		"outfit space" 330
+		"weapon capacity" 165
+		"engine capacity" 60
+		weapon
+			"blast radius" 40
+			"shield damage" 450
+			"hull damage" 180
+			"hit force" 600
+	outfits
+		"Typhoon Launcher" 2
+		"Typhoon Torpedo" 60
+		"Sidewinder Missile Launcher" 4
+		"Sidewinder Missile" 180
+
+		"RT-I Radiothermal"
+		"LP072a Battery Pack"
+		"D22-QP Shield Generator"
+		"Large Radar Jammer"
+		"Tactical Scanner"
+		
+		"A120 Atomic Thruster"
+		"A125 Atomic Steering"
+		"Hyperdrive"
+		
+	gun -24 -24 "Sidewinder Missile Launcher"
+	gun 24 -24 "Sidewinder Missile Launcher"
+	gun -7 -36 "Typhoon Launcher"
+	gun 7 -36 "Typhoon Launcher"
+	gun -36 14 "Sidewinder Missile Launcher"
+	gun 36 14 "Sidewinder Missile Launcher"
+	engine -36 47
+	engine 36 47
+	engine -12 47
+	engine 12 47
+	leak "leak" 50 50
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	"final explode" "final explosion small"
+	description "The Navy developed the Hailmaker as a replacement for the Rainmaker around the time that the Typhoon was produced. It uses much more powerful explosives, but its mobility has not increased."
+
+
+
 ship "Marauder Boxwing"
 	sprite "ship/marauder boxwing"
 	thumbnail "thumbnail/marauder boxwing"
