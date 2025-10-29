@@ -90,11 +90,11 @@ ship "Splinter" "Splinter (Miner)"
 		"Mining Laser Turret" 2
 		"Tractor Beam"
 
-		"Water Coolant System" 2
-		"S3 Thermionic"
-		"LP072a Battery Pack"
+		"Cargo Expansion" 5
 		"D67-TM Shield Generator"
-		"Outfits Expansion" 5
+		"LP072a Battery Pack"
+		"S3 Thermionic"
+		"Water Coolant System" 2
 
 		"A250 Atomic Thruster"
 		"A255 Atomic Steering"
