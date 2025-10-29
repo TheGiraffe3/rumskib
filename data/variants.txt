@@ -84,6 +84,22 @@ ship "Ladybug" "Ladybug (New Description)"
 	description "With room for plentiful shield regeneration and good maneuverability, however, the Hai have begun to bring the Ladybug back into experimental production."
 
 
+ship "Splinter" "Splinter (Miner)"
+	outfits
+		"Mining Laser" 2
+		"Mining Laser Turret" 2
+		"Tractor Beam"
+
+		"Water Coolant System" 2
+		"S3 Thermionic"
+		"LP072a Battery Pack"
+		"D67-TM Shield Generator"
+		"Outfits Expansion" 5
+
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+
+
 ### PERSONS ###
 
 

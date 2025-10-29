@@ -151,12 +151,16 @@ fleet "Human Miners"
 		"Cleaver (Defense)"
 		"Mining Drone" 2
 		"Barb" 2
+	add variant 2
+		"Splinter (Miner)"
 	add variant
 		"Cleaver"
 		"Mining Drone"
 		"Marauder Combat Drone"
 		"Boxwing"
 		"Marauder Boxwing"
+	add variant
+		"Splinter (Miner)"
 
 
 fleet "Large Northern Pirates"
