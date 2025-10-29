@@ -45,6 +45,14 @@ system Arculus
 system Cinxia
 	add fleet "Remnant Capital" 10000
 
+system "Era Natta"
+	add fleet "Korath Raid" 4000
+	add fleet "Korath Large Raid" 10000
+
+system "Elo Chigo"
+	add fleet "Korath Raid" 5000
+	add fleet "Korath Large Raid" 12000
+
 system "Illo Nam"
 	pos -547 -458
 	government Uninhabited
@@ -124,6 +132,10 @@ system Nashira
 
 system Pantica
 	add fleet "Remnant Capital" 10000
+
+system "Thshybo Le"
+	add fleet "Korath Raid" 8000
+	add fleet "Korath Large Raid" 18000
 
 system Zubenelgenubi
 	remove object
