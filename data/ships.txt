@@ -267,7 +267,7 @@ ship "Hailmaker"
 
 		"RT-I Radiothermal"
 		"LP072a Battery Pack"
-		"D22-QP Shield Generator"
+		"D23-QP Shield Generator"
 		"Large Radar Jammer"
 		"Tactical Scanner"
 		
