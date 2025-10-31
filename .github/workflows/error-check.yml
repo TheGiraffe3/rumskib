@@ -27,5 +27,5 @@ jobs:
       with:
         path: '.\endless-sky\plugins\rumskib'
     - name: Parse Datafiles
-      run: "'.\\endless-sky\\Endless Sky.exe' -p"
+      run: "'.\\endless-sky\\Endless Sky.exe' -p --parse-assets"
       shell: bash
