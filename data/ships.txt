@@ -815,9 +815,9 @@ ship "Squall"
 # Taken from Endless Sky Delta, courtesy of Zitchas.
 ship "Swan (Rumskib)"
 	plural "Swans"
-	sprite "ship/remnant/swan/swan"
+	sprite "ship/swan/swan"
 		"rewind"
-	thumbnail "thumbnail/remnant/swan"
+	thumbnail "thumbnail/swan"
 	"display name" "Swan"
 	attributes
 		category "Utility"
