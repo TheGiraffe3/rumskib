@@ -8,7 +8,40 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-mission "Rumskib: Hai Rescue: Ooonem"
+# The "release" way to disable hai slave missions is strangely incomplete - fix so we can replace them in a consistent way
+disable mission
+	"Hai Rescue: Yeertle Hint"
+	"Hai Rescue: Ooonem Hint"
+
+mission "Rumskib: Hai Rescue: Ooonem Hint"
+	landing
+	name "A (Short) Angel of Death"
+	description "There have been some mysterious deaths on <destination>."
+	source
+		near "Alcyone" 3
+		government "Republic" "Syndicate"
+		attributes "spaceport"
+		not attributes "station"
+		not planet "Stormhold"
+	destination Stormhold
+	to offer
+		has "Hai Leaks Response 6: active"
+		has "event: slightly lost"
+		not "Rumskib: Hai Rescue: Ooonem: offered"
+		not "Hai Reveal [B01-A] The Blockade Goes Up: offered"
+		random < 30
+	on offer
+		conversation
+			`As you come in to land at the spaceport, you listen to the usual chatter of captains coming and going. To your surprise, on one of the lower, less obvious bands, you hear a pair of captains talking about the pirate world of <planet>. Apparently these two have enough connections to profit off the occasional trip there, but one of them is warning the other not to go by at the moment.`
+			`	You listen in carefully as the speaker relays that there's some kind of hunt going on there. All the ships are being searched before departure, and there's a lot of paranoid goons with weapons hot. A merchant has been killed on his own ship, while it was parked in the spaceport, and random people keep getting into firefights with a short, hooded, "angel of death" in dark alleyways. So far, no one claims to know what's going on.`
+			`	It's really hard to say what this could be, but it might be worth checking out.`
+				accept
+	to complete
+		has "Rumskib: Hai Rescue: Ooonem: offered"
+	to fail
+		has "Hai Reveal [B01-A] The Blockade Goes Up: offered"
+		
+mission "Rumskib: Hai Rescue: Ooonem: offered"
 	name "Return Ooonem"
 	description "Transport the Hai you rescued to <destination>. Payment is <payment>."
 	source "Stormhold"
@@ -29,7 +62,7 @@ mission "Rumskib: Hai Rescue: Ooonem"
 				has "Ooonem Transmitter"
 			branch nohint
 				and
-					not "Hai Rescue: Ooonem Hint: offered"
+					not "Rumskib: Hai Rescue: Ooonem Hint"
 					not "Hai Rescue: Ooonem (defer count)"
 			`Following reports of the last time the "angel of death" was sighted, you end up loitering in a twisting street parallel to a main thoroughfare. The few people using it hurry by quickly, and rarely seem to travel any great distance down this street. One very surly looking individual gives you a sour glare on his way past, a collection of weapons on full display. He looks a lot like you'd expect a bounty hunter to look, and as he moves out of sight you observe a shadow, previously motionless, detach from a spot on a wall and head back your direction, laser rifle pointed in the direction of the departing individual. As the shadow approaches, you see there's a lot of hair sticking out from their hood. They might be a Hai. Do you want to talk to them?`
 				goto start
@@ -119,6 +152,35 @@ mission "Rumskib: Hai Rescue: Ooonem"
 		fleet "Large Core Pirates" 1
 		fleet "Small Core Pirates" 1
 
+mission "Rumskib: Hai Rescue: Yeertle Hint"
+	landing
+	name "Investigate a Were-Squirrel"
+	description `A truly outlandish rumor has been floating around that there might be a "were-squirrel" (Hai) hiding out on <destination>.`
+	source
+		near "Betelgeuse" 4
+		government "Republic" "Syndicate"
+		attributes "spaceport"
+		not attributes "station"
+		not planet "Prime"
+	destination Prime
+	to offer
+		"combat rating" > 50
+		has "Hai Leaks Response 6: active"
+		has "event: slightly lost"
+		not "Rumskib: Hai Rescue: Yeertle Family: offered"
+		not "event: hai-human treaty signed"
+		random < 50
+	on offer
+		conversation
+			`As you come in to land at the spaceport, you listen to the usual chatter of captains coming and going. Often this contains useful tidbits, such as which merchants are ticked off at the moment and whether you should expect to wait a while for refueling. Today, though, you overhear a captain telling an acquaintance a remarkable tale.`
+			`	Apparently, there is a man-beast on <planet>, and when the other captain laughs at the idea of a modern "werewolf," the first one is quick to clarify that it's more like a meter and a half tall "were-squirrel." There seems to be some confused discussion about the mythology of such beasts being revealed when caught staring at bright lights until a third captain, listening in the same as you, butts in to inform them that one of them stole that from a popular show a few years back.`
+			`	You stop listening on your final approach as the conversation descends into a good-natured argument. Nevertheless, it sounds like a lead on a possible stranded Hai that would be worth following up.`
+				accept
+	to complete
+		has "Rumskib: Hai Rescue: Yeertle Family: offered"
+	to fail
+		has "event: hai-human treaty signed"
+
 
 mission "Rumskib: Hai Rescue: Yeertle Family"
 	name "Return the Yeertle family"
@@ -138,7 +200,7 @@ mission "Rumskib: Hai Rescue: Yeertle Family"
 	on offer
 		conversation
 			branch nohint
-				not "Hai Rescue: Yeertle Hint: offered"
+				not "Rumskib: Hai Rescue: Yeertle Hint"
 			`Wandering around after dark you find yourself down an alley near the spaceport, huddled in an alcove against the drizzle while you keep an eye out for anything suspicious, apparently last rumored to be around here. After a while, a few dozen meters ahead, you see a short man with a strange necklace. As he walks past a power transfer unit, the man shimmers and you see faintly-visible, squirrel-like features. It seems the necklace is a projector of a human hologram concealing a Hai. He is sticking to the shadows, trying to avoid being seen.`
 				goto start
 			label nohint
