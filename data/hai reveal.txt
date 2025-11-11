@@ -417,7 +417,7 @@ mission "Rumskib: Hai Leaks Response 2"
 		log `Brought human diplomatic representatives from each human faction to Hai-home to address the crisis. Something drastic needs to be done to keep the secret from entirely bursting, but they know how long they will have to work with. Asked to rout pirates hoping to benefit from the chaos while they work on a solution.`
 		set "Hai Leaks Response 2: done"
 
-mission "Hai Leaks Response 2A"
+mission "Rumskib: Hai Leaks Response 2A"
 	landing
 	invisible
 	source Deep
