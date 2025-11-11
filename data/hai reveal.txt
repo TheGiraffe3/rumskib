@@ -44,7 +44,7 @@ mission "Rumskib: Hai Rescue: Ooonem Hint"
 	on fail
 		set "Hai Rescue: Ooonem Hint: failed"
 		
-mission "Rumskib: Hai Rescue: Ooonem: offered"
+mission "Rumskib: Hai Rescue: Ooonem"
 	name "Return Ooonem"
 	description "Transport the Hai you rescued to <destination>. Payment is <payment>."
 	source "Stormhold"
