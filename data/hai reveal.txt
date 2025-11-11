@@ -28,6 +28,7 @@ mission "Rumskib: Hai Rescue: Ooonem Hint"
 		has "Hai Leaks Response 6: active"
 		has "event: slightly lost"
 		not "Rumskib: Hai Rescue: Ooonem: offered"
+		not "Hai Rescue: Ooonem: offered"
 		not "Hai Reveal [B01-A] The Blockade Goes Up: offered"
 		random < 30
 	on offer
@@ -38,7 +39,9 @@ mission "Rumskib: Hai Rescue: Ooonem Hint"
 			`	It's really hard to say what this could be, but it might be worth checking out.`
 				accept
 	to complete
-		has "Rumskib: Hai Rescue: Ooonem: offered"
+		or
+			has "Rumskib: Hai Rescue: Ooonem: offered"
+			has "Hai Rescue: Ooonem: offered"
 	to fail
 		has "Hai Reveal [B01-A] The Blockade Goes Up: offered"
 	on fail
@@ -65,7 +68,7 @@ mission "Rumskib: Hai Rescue: Ooonem"
 				has "Ooonem Transmitter"
 			branch nohint
 				and
-					not "Rumskib: Hai Rescue: Ooonem Hint"
+					not "Hai Rescue: Ooonem Hint: offered"
 					not "Hai Rescue: Ooonem (defer count)"
 			`Following reports of the last time the "angel of death" was sighted, you end up loitering in a twisting street parallel to a main thoroughfare. The few people using it hurry by quickly, and rarely seem to travel any great distance down this street. One very surly looking individual gives you a sour glare on his way past, a collection of weapons on full display. He looks a lot like you'd expect a bounty hunter to look, and as he moves out of sight you observe a shadow, previously motionless, detach from a spot on a wall and head back your direction, laser rifle pointed in the direction of the departing individual. As the shadow approaches, you see there's a lot of hair sticking out from their hood. They might be a Hai. Do you want to talk to them?`
 				goto start
@@ -171,9 +174,11 @@ mission "Rumskib: Hai Rescue: Yeertle Hint"
 		has "Hai Leaks Response 6: active"
 		has "event: slightly lost"
 		not "Rumskib: Hai Rescue: Yeertle Family: offered"
+		not "Hai Rescue: Yeertle Family: offered"
 		not "event: hai-human treaty signed"
 		random < 50
 	on offer
+		set "Hai Rescue: Yeertle Hint: offered"
 		conversation
 			`As you come in to land at the spaceport, you listen to the usual chatter of captains coming and going. Often this contains useful tidbits, such as which merchants are ticked off at the moment and whether you should expect to wait a while for refueling. Today, though, you overhear a captain telling an acquaintance a remarkable tale.`
 			`	Apparently, there is a man-beast on <planet>, and when the other captain laughs at the idea of a modern "werewolf," the first one is quick to clarify that it's more like a meter and a half tall "were-squirrel." There seems to be some confused discussion about the mythology of such beasts being revealed when caught staring at bright lights until a third captain, listening in the same as you, butts in to inform them that one of them stole that from a popular show a few years back.`
@@ -183,6 +188,8 @@ mission "Rumskib: Hai Rescue: Yeertle Hint"
 		has "Rumskib: Hai Rescue: Yeertle Family: offered"
 	to fail
 		has "event: hai-human treaty signed"
+	on fail
+		set "Hai Rescue: Yeertle Hint: offered"
 
 
 mission "Rumskib: Hai Rescue: Yeertle Family"
@@ -203,7 +210,7 @@ mission "Rumskib: Hai Rescue: Yeertle Family"
 	on offer
 		conversation
 			branch nohint
-				not "Rumskib: Hai Rescue: Yeertle Hint"
+				not "Hai Rescue: Yeertle Hint: offered"
 			`Wandering around after dark you find yourself down an alley near the spaceport, huddled in an alcove against the drizzle while you keep an eye out for anything suspicious, apparently last rumored to be around here. After a while, a few dozen meters ahead, you see a short man with a strange necklace. As he walks past a power transfer unit, the man shimmers and you see faintly-visible, squirrel-like features. It seems the necklace is a projector of a human hologram concealing a Hai. He is sticking to the shadows, trying to avoid being seen.`
 				goto start
 			label nohint
@@ -289,7 +296,7 @@ mission "Rumskib: Hai Rescue: Yeertle Family"
 		fleet "Small Core Pirates" 1
 
 
-mission "Hai Leaks Response 1"
+mission "Rumskib: Hai Leaks Response 1"
 	landing
 	name "Hai message to <planet>"
 	description "Take the diplomatic ID from the box from Sayari to <planet>."
@@ -299,7 +306,7 @@ mission "Hai Leaks Response 1"
 		has "event: hr: exploration period"
 	on offer
 		log "People" "Sayari" `Ambassador Sayari, a Hai, served as their envoy to the human government a century ago (although no public records of this exist in human space). Her experience has placed her in charge of coordinating the Hai response to the crisis of their continued secrecy.`
-		
+		set "Hai Leaks Response 1: offered"
 		conversation
 			`As you arrive on Hai-home, you find that a reasonable security detachment is waiting at your designated landing berth.`
 			branch rudeawakening
@@ -352,9 +359,11 @@ mission "Hai Leaks Response 1"
 			`	"Oh," she says, "we've treated the Syndicate as a de facto government for many decades now; with the amount of influence they have it was the only prudent thing to do."`
 			`	You take the boxed item with you, and an escort awaits to return you to your ship. As the door behind you closes, you hear Sayari mutter to someone, "It really was much easier when they just had one government though. What a mess."`
 				accept
+	on complete
+		set "Hai Leaks Response 1: done"
 
 
-mission "Hai Leaks Response 2"
+mission "Rumskib: Hai Leaks Response 2"
 	landing
 	name "Collect Representatives"
 	description "Collect human government representatives from <stopovers> and take them to <destination>."
@@ -370,6 +379,7 @@ mission "Hai Leaks Response 2"
 	on offer
 		event "pirates respond to leaks"
 		log "People" "Xilin Yang" `Deputy Minister Yang works in the Foreign Affairs department of the Republic government. He is a pleasant and astute man. Handling the Hai secrecy crisis has become his job while the majority of the foreign ministry remains engaged with the fallout from the Free Worlds and recent peace.`
+		set "Hai Leaks Response 2: offered"
 		conversation
 			`On approach to the spaceport on Earth, you request to speak to an official of significant standing on diplomatic business. Thanks to your renown from the Pug war, you are able to shortcut objections stemming from you yourself not being a diplomat. The diplomatic ID from the box Sayari gave you, when presented, also seems to trigger some sort of classified override, fast-tracking the process from the quoted "two to three business days" to "two hours after landing."`
 			`	The Republic's Deputy Minister for Foreign Affairs meets you in a private room at the spaceport.`
@@ -405,13 +415,14 @@ mission "Hai Leaks Response 2"
 		dialog phrase "generic stopover on visit"
 	on complete
 		log `Brought human diplomatic representatives from each human faction to Hai-home to address the crisis. Something drastic needs to be done to keep the secret from entirely bursting, but they know how long they will have to work with. Asked to rout pirates hoping to benefit from the chaos while they work on a solution.`
+		set "Hai Leaks Response 2: done"
 
 mission "Hai Leaks Response 2A"
 	landing
 	invisible
 	source Deep
 	to offer
-		has "Hai Leaks Response 2: active"
+		has "Rumskib: Hai Leaks Response 2: active"
 	on offer
 		log "People" "Alondo Gruyere" `Alondo is working to develop the diplomatic corps for the Free Worlds. Due to a lack of serious appointed positions (with the few already existing occupied as ambassadors to the Republic), he is looking after the Free Worlds' interests as a diplomat to the Hai.`
 		conversation
@@ -425,24 +436,24 @@ mission "Hai Leaks Response 2A"
 			`	Fortunately, after an hour and a couple of drinks, the embarrassment is long-forgotten when you return to your ship.`
 				decline
 	
-mission "Hai Leaks Response 2B"
+mission "Rumskib: Hai Leaks Response 2B"
 	landing
 	source
 		government "Republic" "Syndicate" "Free Worlds"
 		not planet "Deep" "Foundry" "Watcher"
 	to offer
-		has "Hai Leaks Response 2: active"
+		has "Rumskib: Hai Leaks Response 2: active"
 	on offer
 		conversation
 			`While refueling on <origin>, you see that the media circus is continuing unabated. Apparently, pirates are renewing attacks on trade lanes in the north, utilizing some of the strange weapons observed in the recorded clip of Hai ships fighting each other. Goodness knows how they got their hands on them, but it can't be good news.`
 				decline
 
-mission "Hai Leaks Response 2C"
+mission "Rumskib: Hai Leaks Response 2C"
 	landing
 	invisible
 	source Foundry
 	to offer
-		has "Hai Leaks Response 2: active"
+		has "Rumskib: Hai Leaks Response 2: active"
 	on offer
 		log "People" "Terry Adrianopoulos" `Terry Adrianopoulos is the secretary of Samuel Remington, or at least that's how he puts it. Remington mentioned an internal political situation within the Syndicate while glancing at Terry, so there may be something larger at play with her presence. Hopefully it doesn't conflict with resolving the situation with the Hai.`
 		conversation
