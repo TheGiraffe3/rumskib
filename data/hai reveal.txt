@@ -31,6 +31,7 @@ mission "Rumskib: Hai Rescue: Ooonem Hint"
 		not "Hai Reveal [B01-A] The Blockade Goes Up: offered"
 		random < 30
 	on offer
+		set "Hai Rescue: Ooonem Hint: offered"
 		conversation
 			`As you come in to land at the spaceport, you listen to the usual chatter of captains coming and going. To your surprise, on one of the lower, less obvious bands, you hear a pair of captains talking about the pirate world of <planet>. Apparently these two have enough connections to profit off the occasional trip there, but one of them is warning the other not to go by at the moment.`
 			`	You listen in carefully as the speaker relays that there's some kind of hunt going on there. All the ships are being searched before departure, and there's a lot of paranoid goons with weapons hot. A merchant has been killed on his own ship, while it was parked in the spaceport, and random people keep getting into firefights with a short, hooded, "angel of death" in dark alleyways. So far, no one claims to know what's going on.`
