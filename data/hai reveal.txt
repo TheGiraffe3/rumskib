@@ -40,6 +40,8 @@ mission "Rumskib: Hai Rescue: Ooonem Hint"
 		has "Rumskib: Hai Rescue: Ooonem: offered"
 	to fail
 		has "Hai Reveal [B01-A] The Blockade Goes Up: offered"
+	on fail
+		set "Hai Rescue: Ooonem Hint: failed"
 		
 mission "Rumskib: Hai Rescue: Ooonem: offered"
 	name "Return Ooonem"
