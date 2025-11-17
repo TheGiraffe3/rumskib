@@ -7,4 +7,4 @@ ship "Za'lek Sting"
 	description "The Za'lek Sting is a ship from the game Naev. Unfortunately, the 3D animation can't be ported to Endless Sky."
 	ship "Za'lek Sting" "Za'lek Sting"
  images/ship/za'lek?sting*
-	"Za'lek Sting"
+	add "Za'lek Sting"
