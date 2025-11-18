@@ -23,9 +23,9 @@ jobs:
         mkdir plugins
         cd .\plugins
         mkdir rumskib
-    - uses: actions/checkout@v5.0.0
+    - uses: actions/checkout@v5
       with:
         path: '.\endless-sky\plugins\rumskib'
     - name: Parse Datafiles
-      run: "'.\\endless-sky\\Endless Sky.exe' -p"
+      run: "'.\\endless-sky\\Endless Sky.exe' --parse-assets"
       shell: bash
