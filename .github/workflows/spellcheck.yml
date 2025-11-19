@@ -16,4 +16,5 @@ jobs:
         show-progress: true
     - uses: codespell-project/actions-codespell@master
       with:
+        builtin: clear
         exclude_file: .github/workflows/codespell.exclude
