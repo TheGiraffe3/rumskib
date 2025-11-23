@@ -159,6 +159,7 @@ ship "Cutlass"
 		"D14-RN Shield Generator"
 		"Small Radar Jammer"
 		"Tactical Scanner"
+		"Laser Rifle" 5
 
 		"A370 Atomic Thruster"
 		"A255 Atomic Steering"
@@ -463,8 +464,8 @@ ship "Recruiter"
 		cost 4560000
 		"shields" 2900
 		"hull" 1800
-		"required crew" 3
-		"bunks" 9
+		"required crew" 5
+		"bunks" 11
 		"mass" 160
 		"drag" 2.87
 		"heat dissipation" .64
@@ -654,7 +655,7 @@ ship "Tanager"
 		"shields" 900
 		"hull" 1200
 		"required crew" 1
-		"bunks" 9
+		"bunks" 7
 		"mass" 113
 		"drag" 3
 		"heat dissipation" .56
