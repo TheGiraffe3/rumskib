@@ -11,42 +11,42 @@
 # Fleets
 
 fleet "Derelict Northern"
-    add variant 7
-        "Recruiter (Derelict)"
-    add variant 5
-        "Buttle (Derelict)"
-    add variant 3
-        "Cleaver (Derelict)"
+	add variant 7
+		"Recruiter (Derelict)"
+	add variant 5
+		"Buttle (Derelict)"
+	add variant 3
+		"Cleaver (Derelict)"
 
 fleet "Derelict Southern"
-    add variant 10
-        "Buttle (Derelict)"
-    add variant 5
-        "Tanager (Derelict)"
-    add variant 3
-        "Cleaver (Derelict)"
+	add variant 10
+		"Buttle (Derelict)"
+	add variant 5
+		"Tanager (Derelict)"
+	add variant 3
+		"Cleaver (Derelict)"
 
 fleet "Derelict Core"
-    add variant 10
-        "Cleaver (Derelict)"
-    add variant 2
-        "Dragonfly (Derelict)"
+	add variant 10
+		"Cleaver (Derelict)"
+	add variant 2
+		"Dragonfly (Derelict)"
 
 fleet "Derelict Pirate"
-    add variant 10
-        "Cutlass (Derelict)"
-    add variant
-        "Rumskib Marauder Behemoth (Derelict)"
+	add variant 10
+		"Cutlass (Derelict)"
+	add variant
+		"Rumskib Marauder Behemoth (Derelict)"
 
 # Ship Variants
 
 ship "Buttle" "Buttle (Derelict)"
-    "uncapturable"
-    add attributes
-        "bunks" -9
-        "required crew" -2
-        "automaton" 1
-    outfits
+	"uncapturable"
+	add attributes
+		"bunks" -9
+		"required crew" -2
+		"automaton" 1
+	outfits
 		"nGVF-BB Fuel Cell"
 		"LP036a Battery Pack"
 		"Supercapacitor"
@@ -55,12 +55,12 @@ ship "Buttle" "Buttle (Derelict)"
 		"Hyperdrive"
 
 ship "Cleaver" "Cleaver (Derelict)"
-    "uncapturable"
-    add attributes
-        "bunks" -13
-        "required crew" -9
-        "automaton" 1
-    outfits
+	"uncapturable"
+	add attributes
+		"bunks" -13
+		"required crew" -9
+		"automaton" 1
+	outfits
 		"Dwarf Core"
 		"LP144a Battery Pack"
 		"Asteroid Scanner" 3
@@ -69,12 +69,12 @@ ship "Cleaver" "Cleaver (Derelict)"
 		"Hyperdrive"
 
 ship "Cutlass" "Cutlass (Derelict)"
-    "uncapturable"
-    add attributes
-        "bunks" -12
-        "required crew" -8
-        "automaton" 1
-    outfits
+	"uncapturable"
+	add attributes
+		"bunks" -12
+		"required crew" -8
+		"automaton" 1
+	outfits
 		"Dwarf Core"
 		"LP144a Battery Pack"
 		"Small Radar Jammer"
@@ -83,27 +83,27 @@ ship "Cutlass" "Cutlass (Derelict)"
 		"A370 Atomic Thruster"
 		"A255 Atomic Steering"
 		"Hyperdrive"
-        
+		
 ship "Dragonfly" "Dragonfly (Derelict)"
-    "uncapturable"
-    add attributes
-        "bunks" -9
-        "required crew" -3
-        "automaton" 1
-    outfits
+	"uncapturable"
+	add attributes
+		"bunks" -9
+		"required crew" -3
+		"automaton" 1
+	outfits
 		"Dwarf Core"
 		"Supercapacitor" 2
 		"A250 Atomic Thruster"
 		"A255 Atomic Steering"
 		"Hyperdrive"
-        
+		
 ship "Recruiter" "Recruiter (Derelict)"
-    "uncapturable"
-    add attributes
-        "bunks" -11
-        "required crew" -5
-        "automaton" 1
-    outfits
+	"uncapturable"
+	add attributes
+		"bunks" -11
+		"required crew" -5
+		"automaton" 1
+	outfits
 		"Outfits Expansion"
 		"RT-I Radiothermal"
 		"A250 Atomic Thruster"
@@ -111,12 +111,12 @@ ship "Recruiter" "Recruiter (Derelict)"
 		"Hyperdrive"
 
 ship "Rumskib Marauder Behemoth" "Rumskib Marauder Behemoth (Derelict)"
-    "uncapturable"
-    add attributes
-        "bunks" -30
-        "required crew" -12
-        "automaton" 1
-    outfits
+	"uncapturable"
+	add attributes
+		"bunks" -30
+		"required crew" -12
+		"automaton" 1
+	outfits
 		"Breeder Reactor"
 		"LP144a Battery Pack"
 		"Large Radar Jammer"
@@ -128,12 +128,12 @@ ship "Rumskib Marauder Behemoth" "Rumskib Marauder Behemoth (Derelict)"
 		"Scram Drive"
 
 ship "Tanager" "Tanager (Derelict)"
-    "uncapturable"
-    add attributes
-        "bunks" -7
-        "required crew" -1
-        "automaton" 1
-    outfits
+	"uncapturable"
+	add attributes
+		"bunks" -7
+		"required crew" -1
+		"automaton" 1
+	outfits
 		"nGVF-CC Fuel Cell"
 		"LP036a Battery Pack"
 		"Small Radar Jammer"
