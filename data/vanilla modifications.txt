@@ -306,3 +306,7 @@ outfit "Heavy Rocket Launcher"
 ship "Kestrel (More Weapons)"
 	add attributes
 		"weapon capacity" 40
+
+ship "Mining Drone"
+	add attributes
+		"cargo space" 4
