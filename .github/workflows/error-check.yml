@@ -23,7 +23,7 @@ jobs:
         mkdir plugins
         cd .\plugins
         mkdir rumskib
-    - uses: actions/checkout@v6.0.0
+    - uses: actions/checkout@v6.0.1
       with:
         path: '.\endless-sky\plugins\rumskib'
     - name: Parse Datafiles
