@@ -155,10 +155,10 @@ outfit "Rumskib Triple Gatling Gun"
 		"firing heat" 7
 		"submunition" "gbullet"
 		"submunition" "gbullet"
-			"offset" 1.5
+			"offset" 1.5 0
 			"facing" 0.3
 		"submunition" "gbullet"
-			"offset" -1.5
+			"offset" -1.5 0
 			"facing" -0.3
 		"cluster"
 		"hit effect" "bullet impact"
