@@ -55,7 +55,8 @@ ship "Cleaver" "Cleaver (Defense)"
 
 ship "Modified Argosy" "Modified Argosy (Gat)"
 	outfits
-		"Gatling Gun" 4
+		"Rumskib Triple Gatling Gun"
+		"Gatling Gun"
 		"Gatling Gun Ammo" 5400
 		"Gatling Turret"
 		"Rumskib Quad Gatling Turret"
@@ -69,8 +70,8 @@ ship "Modified Argosy" "Modified Argosy (Gat)"
 		"Greyhound Plasma Thruster"
 		"X3200 Ion Steering"
 		"Hyperdrive"
-	gun
-	gun
+	gun "Rumskib Triple Gatling Gun"
+	gun "Gatling Gun"
 	gun
 	gun
 	turret "Rumskib Quad Gatling Turret"
