@@ -193,6 +193,7 @@ mission "Rumskib: Pirates in Nashira"
 	repeat
 	to offer
 		not "dead edderkopp"
+		not "Rumskib: Pirates in Nashira: active"
 	npc kill
 		government "Pirate"
 		personality disables harvests mining plunders staying swarming
