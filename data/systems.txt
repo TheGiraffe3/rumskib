@@ -8,9 +8,6 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-system Algenib
-	add link Nashira
-
 system Alioth
 	remove object
 		sprite planet/dust4
@@ -52,6 +49,9 @@ system "Era Natta"
 system "Elo Chigo"
 	add fleet "Korath Raid" 5000
 	add fleet "Korath Large Raid" 12000
+
+system Gienah
+	add link Nashira
 
 system "Illo Nam"
 	pos -547 -458
