@@ -37,10 +37,10 @@ system Alnilam
 			period 17.2841
 
 system Arculus
-	add fleet "Remnant Capital" 10000
+	add fleet "Remnant Capital" 30000
 
 system Cinxia
-	add fleet "Remnant Capital" 10000
+	add fleet "Remnant Capital" 30000
 
 system "Era Natta"
 	add fleet "Korath Raid" 4000
@@ -131,7 +131,7 @@ system Nashira
 		period 851.532
 
 system Pantica
-	add fleet "Remnant Capital" 10000
+	add fleet "Remnant Capital" 30000
 
 system "Thshybo Le"
 	add fleet "Korath Raid" 8000
