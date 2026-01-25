@@ -1,4 +1,4 @@
-v0.10.17
+v0.11.0
 * More GHA actions/checkout updates
 * Buffs to the Flamethrower, Heavy Rocket, Torpedo, and Nuclear Missile
 * Added the Mining Barge from an orphaned Endless Sky pull request
@@ -17,7 +17,7 @@ v0.10.17
 * Added the Triple Gatling Gun
 * Fixed the Pirates in Nashira mission continually offering
 * Fixed the Squall and Hailstone mission so that it doesn't stay in the save forever
-* Updated all starts to use the new 0.10.17 conditions from vanilla
+* Updated all starts to use the new 0.11.0 conditions from vanilla
 * Updated the Remnant Capital fleet to spawn less often
 
 v0.10.16
