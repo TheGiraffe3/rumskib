@@ -11,10 +11,10 @@ jobs:
     name: Spelling
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v5.0.0
+    - uses: actions/checkout@v6.0.2
       with:
-        ref: ${{ github.event.pull_request.head.sha }}
         show-progress: true
     - uses: codespell-project/actions-codespell@master
       with:
+        builtin: clear
         exclude_file: .github/workflows/codespell.exclude
