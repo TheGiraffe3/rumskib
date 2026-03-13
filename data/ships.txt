@@ -321,6 +321,7 @@ ship "Marauder Boxwing"
 		"Quad Beam Laser"
 
 		"nGVF-AA Fuel Cell"
+		"Supercapacitor" 3
 
 		"X1050 Ion Engines"
 
