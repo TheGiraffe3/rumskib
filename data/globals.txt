@@ -48,6 +48,7 @@ mission "global: Pirate Start Unlocked"
 	non-blocking
 	to offer
 		has "global: rumskib: human mining start unlocked"
+		not "rumskib: global: human mining start unlocked: offered"
 		"days since start" > 1000
 	on offer
 		set "global: rumskib: pirate start unlocked"
