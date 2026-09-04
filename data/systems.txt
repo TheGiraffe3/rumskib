@@ -12,11 +12,9 @@ system Alioth
 	remove object
 		sprite planet/dust4
 		distance 2197.72
-		period 1942.72
 	add object "New Gettysburg"
 		sprite planet/ocean2-b
 		distance 2197.72
-		period 1942.72
 
 system Alnilam
 	remove object
