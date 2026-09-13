@@ -23,8 +23,9 @@ mission "Rumskib: Large Pirate Fleet Elimination"
 	npc kill
 		government "Pirate"
 		personality heroic marked target tracked
-		fleet "Pirate Variants" 2
-        dialog phrase "generic hunted bounty eliminated and payment dialog"
+		fleet "Pirate Variants"
+		fleet "Pirate Variants"
+		dialog phrase "generic hunted bounty eliminated and payment dialog"
 		on kill
 			payment 2000000
 
