@@ -481,7 +481,7 @@ ship "Recruiter"
 		"heat dissipation" .64
 		"fuel capacity" 500
 		"cargo space" 50
-		"outfit space" 194
+		"outfit space" 212
 		"weapon capacity" 70
 		"engine capacity" 60
 		weapon
