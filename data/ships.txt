@@ -493,7 +493,8 @@ ship "Recruiter"
 		"Heavy Laser" 4
 
 		"Outfits Expansion"
-		"RT-I Radiothermal"
+		"S3 Thermionic"
+		"LP036a Battery Pack"
 		"D23-QP Shield Generator"
 
 		"A250 Atomic Thruster"
@@ -503,6 +504,8 @@ ship "Recruiter"
 	gun -20.5 -9.5 "Heavy Laser"
 	gun 20.5 -9.5 "Heavy Laser"
 	gun 30.5 -7 "Heavy Laser"
+	engine -12 46
+	engine 12 46
 	leak "leak" 20 30
 	leak "flame" 30 69
 	explode "tiny explosion" 70
@@ -511,6 +514,7 @@ ship "Recruiter"
 	explode "large explosion" 5
 	"final explode" "final explosion medium"
 	description "When the Headhunter saw a huge success in sales, the feedback polls that Lionheart sent out only found one problem - the hull was too fragile. Their newer iteration, called the Recruiter, remedies the hull issues, although it had to lose a turret mount to do so, and the shield matrices are much less advanced."
+	description "	After putting the Recruiter into mass production, Lionheart received reports of power failures after just a few seconds of combat. The default design did not have enough outfit space for a generator upgrade, so Lionheart was forced to start shipping spacecraft with an Outfits Expansion already installed, a move that drew hostile critique from competitors."
 
 
 
